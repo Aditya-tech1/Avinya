@@ -1,37 +1,74 @@
+'use client'
 import React from 'react'
+import one from '../assets/gallery/1.jpg'
+import two from '../assets/gallery/2.jpg'
+import three from '../assets/gallery/3.jpg'
+import four from '../assets/gallery/4.jpg'
+import five from '../assets/gallery/5.jpg'
+import six from '../assets/gallery/6.jpg'
+import seven from '../assets/gallery/7.jpg'
+import eight from '../assets/gallery/8.jpg'
+import nine from '../assets/gallery/9.jpg'
+
+import Image from 'next/image'
 
 export default function Gallery() {
+    const descEnable = (e) => {
+        e.target.nextElementSibling.style.display = 'block';
+    }
+    const descDisable = (e) => {
+        e.target.nextElementSibling.style.display = 'none';
+    }
+        
+    const imageDiv= 'w-full h-64  rounded  flex flex-col items-center justify-center text-black relative shadow-sm shadow-white shadow-center cursor-pointer';
     return (
-        <div className='w-full p-4 px-24'>
-            <h2>
-                Gallery
+        <div className='w-full p-4 px-24 text-center flex flex-col items-center justify-start mt-16'>
+           <h2 className='text-3xl font-bold '>
+                <p>
+                   Glimpse of the अVINYA 2023
+                </p>
+                <hr className="mt-2 border-t-2 border-white" />
             </h2>
-            <div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 1</p>
+            <div className='grid grid-cols-5 w-full px-24 gap-10 mt-10 h-'>
+                <div className={imageDiv}>
+                    <Image src={one} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 2</p>
+                <div className={imageDiv}>
+                    <Image src={two} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 3</p>
+                <div className={imageDiv}>
+                    <Image src={three} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 4</p>
+                <div className={imageDiv}>
+                    <Image src={four} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 5</p>
+                <div className={imageDiv}>
+                    <Image src={five} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
-                <div>
-                    <img src="https://via.placeholder.com/150" alt="placeholder" />
-                    <p>Image 6</p>
+                <div className={imageDiv}>
+                    <Image src={six} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
+                <div className={imageDiv}>
+                    <Image src={seven} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
+                </div>
+                <div className={imageDiv}>
+                    <Image src={eight} alt="placeholder" className='h-full w-full rounded object-left object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
+                </div>
+                <div className={imageDiv}>
+                    <Image src={nine} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
+                </div>
+              
             </div>
         </div>
+        
     )
 }

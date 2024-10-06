@@ -14,6 +14,10 @@ module.exports = {
       backgroundImage: {
         "mainBanner": "url('/assets/main_banner_back.jpg')",
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+      },
     },
   },
   plugins: [],
