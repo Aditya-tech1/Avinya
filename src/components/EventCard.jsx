@@ -7,9 +7,11 @@ function EventCard({data}) {
       <div className="flex-shrink-0 h-full">
        {/*  <div className="h-full aspect-square bg-gray-700 rounded-lg"></div> */}
         <Image
-          src={logo}
+          src={data.eventimage}
           className="h-full w-full aspect-square bg-gray-700 rounded-lg object-contain"
           alt="logo"
+          width={200}
+          height={200}
         />
       </div>
       <div className="ml-6 flex flex-col h-full grow">
@@ -18,10 +20,10 @@ function EventCard({data}) {
           {data.eventdescription}
         </p>
         <div className="flex space-x-4">
-          <Link href={""} className="bg-gray-200 text-sm text-gray-900 w-full h-8 rounded">
+          <Link href={""} className="bg-gray-200 text-sm text-gray-900 rounded flex text-center w-full h-8 items-center justify-center">
             Read More . . .
           </Link>
-          <Link href={""} className="bg-blue-600 text-sm text-white w-full h-8 rounded">
+          <Link href={""} className="bg-blue-600 text-sm text-white rounded flex text-center w-full h-8 items-center justify-center">
             Register
           </Link>
         </div>
