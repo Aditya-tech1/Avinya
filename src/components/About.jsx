@@ -37,7 +37,7 @@ export default function About() {
       </div>
       <Image
         src={mainBack2}
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10 "
+        className="absolute top-0 left-0 right-0 w-full h-full object-cover -z-10 "
         alt="banner"
       />
     </div>

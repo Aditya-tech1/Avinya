@@ -17,7 +17,7 @@ const defaultOptions = {
 function AvinyaName() {
   return (
     <Tilt className="Tilt p-3" options={defaultOptions}>
-      <h1 className="text-8xl py-4 text-[#e63bdb] [text-shadow:_7px_5px_9px_rgba(225,157,219,0.56)] allura-regular tracking-wider">
+      <h1 className="text-8xl py-4 [text-shadow:_7px_5px_16px_rgba(225,157,219,0.45)] allura-regular tracking-wider bg-gradient-to-r from-[#e63bdb] to-cyan-500 gradtext">
         <span className="kalam-regular">अ</span>VINYA 2024
       </h1>
     </Tilt>

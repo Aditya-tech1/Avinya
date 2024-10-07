@@ -4,7 +4,7 @@ import AvinyaName from "./AvinyaName";
 
 export default function MainBanner() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center">
+    <div className="w-full h-screen flex flex-col items-center justify-center">
       <AvinyaName />
       <p className="text-2xl mt-8">Where Code Meets Chaos!</p>
       <h5 className="text-lg mt-6 pt-4 rokkitt-regular">We Are Waiting For You Guyz On</h5>
@@ -18,7 +18,7 @@ export default function MainBanner() {
 
       <Image
         src={mainBack}
-        className="absolute top-0 left-0 w-screen h-screen object-cover -z-10"
+        className="absolute top-0 left-0 right-0 h-screen object-cover -z-10"
         alt="banner"
       />
     </div>

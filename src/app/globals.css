@@ -56,6 +56,14 @@
 *{
   box-sizing: border-box;
 }
+.gradtext{
+  /* background: linear-gradient(90deg, #7a00ff, #ff00e7); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: grad 15s linear infinite;
+}
+
 body {
   color: var(--foreground);
   background: #001421;
