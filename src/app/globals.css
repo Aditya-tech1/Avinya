@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +17,42 @@
     
   }
 }
+.rokkitt-regular {
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.martel-extralight {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 *{
   box-sizing: border-box;
 }

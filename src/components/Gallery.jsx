@@ -29,7 +29,7 @@ export default function Gallery() {
                 </p>
                 <hr className="mt-2 border-t-2 border-white" />
             </h2>
-            <div className='flex flex-grow flex-wrap w-full px-24 gap-10 mt-10   '>
+            <div className='flex flex-grow flex-wrap w-full px-24 gap-10 mt-10 justify-center  '>
                 <div className={imageDiv}>
                     <Image loading='lazy' src={one} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
