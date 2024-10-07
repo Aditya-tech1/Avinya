@@ -31,39 +31,39 @@ export default function Gallery() {
             </h2>
             <div className='flex flex-grow flex-wrap w-full px-24 gap-10 mt-10   '>
                 <div className={imageDiv}>
-                    <Image src={one} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={one} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={two} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={two} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={three} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={three} alt="placeholder" className='h-full w-full rounded object-right object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={four} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={four} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={five} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={five} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={six} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={six} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={seven} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={seven} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={eight} alt="placeholder" className='h-full w-full rounded object-left object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={eight} alt="placeholder" className='h-full w-full rounded object-left object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
                 <div className={imageDiv}>
-                    <Image src={nine} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
+                    <Image loading='lazy' src={nine} alt="placeholder" className='h-full w-full rounded object-center object-cover' onMouseOver={descEnable} onMouseLeave={descDisable} />
                     <p className='absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ipsam amet dicta.</p>
                 </div>
               
