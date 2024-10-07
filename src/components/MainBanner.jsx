@@ -1,14 +1,11 @@
-import React from "react";
 import Image from "next/image";
 import mainBack from "../assets/FEST.png";
-
+import AvinyaName from "./AvinyaName";
 
 export default function MainBanner() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center">
-      <h1 className="text-8xl py-4 text-[#e63bdb] mt-24 [text-shadow:_7px_5px_9px_rgba(225,157,219,0.56)] allura-regular tracking-wider">
-      <span className="kalam-regular">अ</span>VINYA 2024
-      </h1>
+      <AvinyaName />
       <p className="text-2xl mt-8">Where Code Meets Chaos!</p>
       <h5 className="text-lg mt-6 pt-4 rokkitt-regular">We Are Waiting For You Guyz On</h5>
       <h2 className="text-4xl text-[#FFD400] mt-4 rokkitt-regular">October 15, 2024</h2>
