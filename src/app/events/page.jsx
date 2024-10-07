@@ -3,52 +3,60 @@ import EventCard from "@/components/EventCard";
 function page() {
   const events = [
     {
-      eventname: "Event 1",
-      eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventname: "Komic Sense",
+      eventimage: "../../assets/komicSense.jpg",
+      eventdescription: "The Technical Comic Making Competition is an opportunity to express complex technical topics in a fun, visually engaging, and understandable way. ",
+      lumaLink: "https://lu.ma/vo2u8ijn",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 2",
-      eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventname: "Battle Of Minds",
+      eventimage: "../../assets/battleOfMinds.png",
+      eventdescription: "The Group Discussion (GD) will consist of two rounds, during which we will evaluate leadership qualities, clarity of thought, and problem-solving abilities.",
+      lumaLink: "https://lu.ma/5y976xse",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 3",
+      eventname: "The Bug Hunt",
       eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventdescription: "A challenging quiz competition designed to test your comprehensive knowledge of electrical and technical concepts.",
+      lumaLink: "https://lu.ma/q2bbotry",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 4",
+      eventname: "Tomorow's Tech Star",
       eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventdescription: "Tomorrow's Tech Star, a platform for individual innovators to showcase their visionary ideas",
+      lumaLink: "https://lu.ma/mnbh9hjb",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 5",
+      eventname: "Innovision",
       eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventdescription: "InnoVision offers participants a unique platform to present their transformative ideas through a structured PowerPoint showcase. ",
+      lumaLink: "https://lu.ma/6tsntzyl",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 6",
+      eventname: "IQonnect",
       eventimage: "event1.jpg",
       eventdescription: "This is event 1",
-      link: "/events/event1",
+      lumaLink: "https://lu.ma/zckvu87q",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 7",
+      eventname: "Explicon",
       eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventdescription: "This event offers participants a platform to present original ideas through visually engaging scientific posters",
+      lumaLink: "https://lu.ma/r0i224ni",
+      pageLink: "events/event1"
     },
     {
-      eventname: "Event 8",
+      eventname: "Bits 'N' Bytes",
       eventimage: "event1.jpg",
-      eventdescription: "This is event 1",
-      link: "/events/event1",
+      eventdescription: "The science-inspired food decor event is fun and creative",
+      lumaLink: "https://lu.ma/d4307fog",
+      pageLink: "events/event1"
     },
   ];
   return (

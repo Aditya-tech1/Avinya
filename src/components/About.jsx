@@ -34,11 +34,7 @@ export default function About() {
           ratione natus debitis aliquid mollitia temporibus, fuga animi eum?
         </div>
       </div>
-      <Image
-        src={mainBack2}
-        className="absolute top-0 left-0 right-0 w-full h-full object-cover -z-10 "
-        alt="banner"
-      />
+     
     </div>
   );
 }

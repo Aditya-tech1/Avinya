@@ -1,3 +1,4 @@
+import Link from "next/link";
 import logo from "../assets/logo.png";
 import Image from "next/image";
 function EventCard({data}) {
@@ -17,12 +18,12 @@ function EventCard({data}) {
           {data.eventdescription}
         </p>
         <div className="flex space-x-4">
-          <button className="bg-gray-200 text-sm text-gray-900 w-full h-8 rounded">
+          <Link href={""} className="bg-gray-200 text-sm text-gray-900 w-full h-8 rounded">
             Read More . . .
-          </button>
-          <button className="bg-blue-600 text-sm text-white w-full h-8 rounded">
+          </Link>
+          <Link href={""} className="bg-blue-600 text-sm text-white w-full h-8 rounded">
             Register
-          </button>
+          </Link>
         </div>
       </div>
     </div>
