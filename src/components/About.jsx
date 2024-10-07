@@ -16,6 +16,7 @@ export default function About() {
           <Image
             src={aboutImg}
             className="w-full h-full bg-red-400 flex items-center justify-center rounded-md"
+            alt="about"
           />
         </div>
         <div className="w-1/2 text-base text-justify">
