@@ -13,7 +13,7 @@ export default function EventItem() {
                     <Image src={poster} alt='Poster' className='w-full h-auto rounded' />
                     <p className=' w-full py-6 '>
                         <strong> Venue:  </strong>Auditorium <br /> <br />
-                        <strong> Timing:</strong>  09:00 AM - 11:00 AM 
+                        <strong> Timing:</strong>  09:00 AM - 11:00 AM
                     </p>
                 </div>
                 <div className='w-2/3 text-sm'>
@@ -42,15 +42,12 @@ export default function EventItem() {
 
                         Each presentation will follow this format:
                     </h2>
-                    <ul>
-                        <li>
-                            3 minutes to explain the core concepts of the poster
-                        </li>
-                        <li>
 
-                            2 minutes for a dynamic Q&A session with the judging panel
-                        </li>
-                    </ul>
+                    3 minutes to explain the core concepts of the poster
+
+
+                    2 minutes for a dynamic Q&A session with the judging panel
+
                     <strong className='text-cyan-600'>
 
                         Note: All participants must adhere to the provided topics when creating their posters.
