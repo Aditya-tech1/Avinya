@@ -62,7 +62,8 @@
   background-clip: text;
   color: transparent;
 }
-.gradborder::before{
+
+.gradborder::before {
   content: "";
   position: absolute;
   width: 13.6rem;
@@ -70,22 +71,14 @@
   border-radius: 0.25rem;
   z-index: -1;
   background: conic-gradient(
-    from 0deg, /* Angle at which the gradient starts */
-    #D847EF,   /* Starting color */
-    cyan,      /* Intermediate color */
-    #D847EF    /* Ending color */
+    from 0deg,
+    #D847EF,
+    cyan,
+    #D847EF
   );
-  animation: rotate-gradient 5s linear infinite;
 }
 
-@keyframes rotate-gradient {
-  0% {
-    background: conic-gradient(from 0deg, #D847EF, cyan, #D847EF);
-  }
-  100% {
-    background: conic-gradient(from 360deg, #D847EF, cyan, #D847EF);
-  }
-}
+
 
 .beforee::before{
   content: "";
