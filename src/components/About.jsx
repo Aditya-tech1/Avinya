@@ -6,10 +6,11 @@ import mainBack2 from "../assets/FEST2.png";
 export default function About() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-start pt-16 relative">
-      <h2 className="text-3xl font-bold ">
-        <p>About</p>
-        <hr className="mt-2 border-t-2 border-white" />
-      </h2>
+      <h1 className=" mt-16 w-full px-24">
+        <span className="text-[3rem] w-full text-center beforee relative">
+          About
+        </span>
+      </h1>
 
       <div className="flex flex-row items-start justify-center px-24  py-14 gap-10">
         <div className="w-1/2">
@@ -31,8 +32,6 @@ export default function About() {
           Tempore, facilis ipsam animi culpa labore, hic explicabo quod impedit,
           eos porro accusantium voluptates rem. Aperiam ipsa molestias cum
           ratione natus debitis aliquid mollitia temporibus, fuga animi eum?
-
-          
         </div>
       </div>
       <Image

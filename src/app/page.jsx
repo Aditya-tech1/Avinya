@@ -14,11 +14,7 @@ export default function Home() {
    <About />
    <EventSection />
    <Gallery />
-   <EventCard />
    <Footer />
-   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-   <EventItem />
    </>
   );
 }
