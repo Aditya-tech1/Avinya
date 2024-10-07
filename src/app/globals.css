@@ -75,7 +75,18 @@
     cyan,      /* Intermediate color */
     #D847EF    /* Ending color */
   );
+  animation: rotate-gradient 5s linear infinite;
 }
+
+@keyframes rotate-gradient {
+  0% {
+    background: conic-gradient(from 0deg, #D847EF, cyan, #D847EF);
+  }
+  100% {
+    background: conic-gradient(from 360deg, #D847EF, cyan, #D847EF);
+  }
+}
+
 .beforee::before{
   content: "";
   position: absolute;
