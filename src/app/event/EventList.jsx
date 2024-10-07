@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Event() {
+export default function EventList() {
   return (
     <div>
-      Events
+      
     </div>
   )
 }

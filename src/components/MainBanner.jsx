@@ -21,7 +21,7 @@ export default function MainBanner() {
 
       <Image
         src={mainBack}
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        className="absolute top-0 left-0 w-screen h-screen object-cover -z-10"
         alt="banner"
       />
     </div>

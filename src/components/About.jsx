@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import aboutImg from "../assets/aboutImg.jpg";
-import mainBack from "../assets/FEST.png";
+import mainBack2 from "../assets/FEST2.png";
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-start pt-16 relative">
+    <div className="w-screen h-screen flex flex-col items-center justify-start pt-16 relative">
       <h2 className="text-3xl font-bold ">
         <p>About</p>
         <hr className="mt-2 border-t-2 border-white" />
@@ -30,11 +30,13 @@ export default function About() {
           Tempore, facilis ipsam animi culpa labore, hic explicabo quod impedit,
           eos porro accusantium voluptates rem. Aperiam ipsa molestias cum
           ratione natus debitis aliquid mollitia temporibus, fuga animi eum?
+
+          
         </div>
       </div>
       <Image
-        src={mainBack}
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10 rotate-360"
+        src={mainBack2}
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10 "
         alt="banner"
       />
     </div>
