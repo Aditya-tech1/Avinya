@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { Tilt } from "react-tilt";
-import komic from "../assets/komicSense.jpg";
+import komic from "../assets/etherium.png";
 
 function Sponsors() {
   const Sponsors = ["Sponsor1", "Sponsor2", "Sponsor3", "Sponsor4"];
@@ -28,7 +28,7 @@ function Sponsors() {
     <section className="py-10">
       <h1 className="md:mt-16 mt-4 w-full md:px-24 px-10">
         <span className="text-[3rem] w-full text-center beforee relative text-white">
-          Our Sponsors
+          Sponsored By
         </span>
       </h1>
       <div className="flex flex-wrap justify-center items-center mt-20">
@@ -40,12 +40,12 @@ function Sponsors() {
             tiltOptions={defaultOptions}
             key={index}
           >
-            <div className="m-6 rounded-lg w-32 h-32 md:w-48 md:h-48 flex items-center justify-center relative" onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
+            <div className=" m-6 rounded-lg w-32 h-32 md:w-48 md:h-48 flex items-center justify-center relative" onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
               <p className={`opacity-0 text-[#FFD400] rokkitt-regular absolute -z-10 top-0 ${hover?'-translate-y-8 opacity-100':''} duration-100`}>{sponsor}</p>
               <Image
                 src={komic}
                 alt="sponsor1"
-                className="h-full w-full object-contain"
+                className="h-full w-full object-contain "
               />
             </div>
           </Tilt>
