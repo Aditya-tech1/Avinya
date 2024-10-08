@@ -20,7 +20,7 @@ export default function About() {
             alt="about"
           />
         </div>
-        <div className="md:w-1/2 w-full text-base text-justify">
+        <div className="md:w-1/2 w-full text-base text-justify text-white">
         अVINYA, the Annual Tech Fest of Guru Tegh Bahadur 4th Centenary Engineering College, is a distinguished event celebrating innovation, knowledge, and creativity. Derived from Sanskrit, अVINYA means "Innovation," embodying the fest’s mission to offer a platform for students to engage with emerging technologies through a range of exciting events.Guided by our college motto, 'Fostering Dreams, Forging Futures,' अVINYA focuses on developing technical, communication, and presentation skills. This year marks the second edition, now an inter-college event, welcoming participants from various institutions to collaborate and showcase their abilities. <br />
 The fest features eight unique events: <br />
 <ul className="">
