@@ -78,7 +78,7 @@ function page() {
 
       </h1>
 
-      <div className="grid grid-cols-2 gap-10 col-g px-24 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 col-g px-3 mt-10 border">
         {events.map((event, index) => (
           <EventCard key={index} data={event} />
         ))}

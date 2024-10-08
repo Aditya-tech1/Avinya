@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import Image from "next/image";
 function EventCard({data}) {
   return (
-    <div className=" h-52 bg-gray-900 text-white p-5 rounded-lg flex flex-col md:flex-row items-center justify-center w-full ">
+    <div className="md:h-52 bg-gray-900 text-white p-5 rounded-lg flex flex-col md:flex-row items-center justify-center w-full ">
       <div className="flex-shrink-0 h-full">
        {/*  <div className="h-full aspect-square bg-gray-700 rounded-lg"></div> */}
         <Image
