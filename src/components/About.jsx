@@ -46,6 +46,9 @@ export default function About() {
             <li className="list-disc ml-2">InnoVision</li>
             <li className="list-disc ml-2">IQonnect</li>
             <li className="list-disc ml-2">Bits N Bytes</li>
+            <li className="list-disc ml-2">Explicon</li>
+            
+अVINYA fosters a collaborative environment where young innovators can explore and present advancements in technology, preparing them for future challenges.
           </ul>
         </div>
       </div>
