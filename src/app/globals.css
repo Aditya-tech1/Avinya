@@ -116,7 +116,6 @@
 .shadow {
   box-shadow: rgba(208, 0, 255, 0.101) 0px 50px 100px -20px,
     rgba(101, 200, 149, 0.859) 0px 30px 60px -30px;
-    border-radius: 50% !important;
 }
 .sponsorshadow{
   filter: drop-shadow(-16px 6px 0px #eb11ee)
