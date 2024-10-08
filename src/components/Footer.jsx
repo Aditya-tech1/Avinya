@@ -6,10 +6,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-4 px-3 hidden md:flex flex-col md:flex-row justify-between items-center mt-8">
+    <footer className="bg-black text-white py-4 px-3 gap-5 md:gap-0 flex flex-col-reverse md:flex-row justify-between items-center mt-8 h-auto">
 
-      <div className="flex flex-col items-center gap-1 w-full">
-        <p className="text-xs">designed and developed with ❤️ by</p>
+      <div className="flex flex-col items-center gap-1 w-full ">
+        <p className="text-xs">Designed and Developed with ❤️ by</p>
         <div className="flex space-x-3">
           <Link
             href="https://github.com/Rahmanhusain"
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-[0.2rem] h-8 my-1 bg-white"></div>
+      <div className="w-[0.2rem] h-8 my-1 bg-white hidden md:block"></div>
 
       <div className="flex items-center justify-center gap-2 w-full">
         <p className="text-center text-sm">@ Organized By</p>
@@ -57,9 +57,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-[0.2rem] h-8  my-1 bg-white"></div>
+      <div className="w-[0.2rem] h-8  my-1 bg-white hidden md:block"></div>
 
-      <div className="flex flex-col items-center justify-center w-full">
+      <div className="md:flex flex-col items-center justify-center w-full hidden">
         <div className="flex flex-col gap-1">
           <p className="text-[0.6rem]">Follow us on</p>
           <div className="flex gap-4">
