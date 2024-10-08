@@ -58,13 +58,13 @@ export default function EventSection() {
   };
 
   return (
-    <div className="w-full p-4 md:px-10 px-10 text-center flex flex-col items-center justify-start md:mt-16 mt-4">
+    <div className="w-full p-4 md:px-24 px-10 text-center flex flex-col items-center justify-start md:mt-16 mt-4">
       <h1 className=" md:mt-16 mt-0 w-full text-left">
         <span className="text-[3rem] w-full beforee relative">
           Events
         </span>
       </h1>
-      <div className="flex flex-wrap justify-center w-full md:px-24 px-10 gap-10 mt-14">
+      <div className="flex flex-wrap justify-center w-full md:px-2 px-2 gap-10 mt-14">
         {Object.keys(mainEvents).map((event, index) => (
           <Link href={`${mainEvents[event].pageLink}`} className="w-60 h-72  rounded p-4 flex flex-col items-center hover:-translate-y-2 transition-transform justify-center gradborderevent cursor-pointer relative shadow" key={index}>
            
