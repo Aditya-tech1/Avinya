@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutImg from "../assets/aboutImg.jpg";
-import mainBack2 from "../assets/FEST2.png";
+import aboutImg from "../assets/mainPoster.jpg";
 
 export default function About() {
   return (

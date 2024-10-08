@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import poster from "../../../assets/poster.jpg";
@@ -540,16 +541,17 @@ function page({params}) {
 
     const liStyle = " ml-6 mt-2";
     return (
-        <div className=" text-white w-full h-auto mt-28 px-24 flex flex-col justify-center min-h-screen">
-            <div className="flex flex-row gap-10">
-                <div className="w-1/3 ">
+        <div className=" text-white w-full h-auto md:mt-28 mt-10 md:px-24 px-10 flex md:flex-col flex-row justify-center min-h-screen">
+            <div className="flex md:flex-row flex-col gap-10">
+                <div className="md:w-1/3 w-full ">
                     <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
                         <strong> Venue: </strong>{data[params.event].venue}<br /> <br />
+                        {/* <Link href={data[params.event].lumalink}>Register</Link> */}
                         {/* <strong> Timing:</strong> {data[params.event].timing} */}
                     </p>
                 </div>
-                <div className="w-2/3 text-sm">
+                <div className="md:w-2/3 w-full text-sm">
                     <h2 className='text-lg font-bold'>
                         {data[params.event].mainHeading}
                     </h2>
