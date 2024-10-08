@@ -8,7 +8,7 @@ import { useState } from "react";
 function Header() {
   const [hide,setHide] = useState(false)
   return (
-    <div className="w-full text-white h-auto md:h-20 items-center md:justify-between justify-center py-4 px-6 md:py-6 md:px-10 bg-transparent fixed top-0 left-0 backdrop-blur-xl z-10 flex ">
+    <div className="w-full text-white h-auto md:h-24 items-center md:justify-between justify-center py-4 px-6 md:py-4 md:px-10 bg-transparent fixed top-0 left-0 backdrop-blur-xl z-10 flex ">
       <div className="logo w-full flex items-center">
         <Image src={logo} alt="" height={50} className="h-full w-auto" />
         <h2 className="w-full ml-2 text-white">
