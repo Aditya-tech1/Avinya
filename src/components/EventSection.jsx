@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import komicSense from "@/assets/komicSense.jpg";
 import battleOfMinds from "@/assets/battleOfMinds.png";
 import bugHunt from "@/assets/bugHunt.jpg";
@@ -8,7 +9,6 @@ import techStar from "@/assets/techStar.jpg";
 import innovision from "@/assets/innovision.jpg";
 import iqonnect from "@/assets/iQonnect.jpg";
 import explison from "@/assets/explicon.jpg";
-import Link from "next/link";
 
 
 export default function EventSection() {
