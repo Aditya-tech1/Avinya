@@ -81,6 +81,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:explison,
+            lumalink:"https://lu.ma/r0i224ni",
 
         },
         // The Bug Hunt
@@ -147,6 +148,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:bugHunt,
+            lumalink:"https://lu.ma/q2bbotry",
 
         },
         //Bits 'N' Bytes
@@ -213,6 +215,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:bitNBytes,
+            lumalink:"https://lu.ma/d4307fog",
 
         },
         //Innovision
@@ -283,6 +286,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:innovision,
+            lumalink:"https://lu.ma/6tsntzyl",
 
         },
         // Group Discussion
@@ -350,6 +354,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:battleOfMinds,
+            lumalink:"https://lu.ma/5y976xse",
 
             
         },
@@ -419,6 +424,7 @@ function page({params}) {
                 twenty: "",
             },
             imgurl:komicSense,
+            lumalink:"https://lu.ma/vo2u8ijn",
 
         },
         //IQonnect Quiz
@@ -475,6 +481,7 @@ function page({params}) {
                 four: "",
             },
             imgurl:iqonnect,
+            lumalink:"https://lu.ma/zckvu87q",
 
             
         },
@@ -534,6 +541,7 @@ function page({params}) {
                 four: "",
             },
             imgurl:techStar,
+            lumalink:"https://lu.ma/mnbh9hjb",
 
            
         }
@@ -547,7 +555,7 @@ function page({params}) {
                     <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
                         <strong> Venue: </strong>{data[params.event].venue}<br /> <br />
-                        {/* <Link href={data[params.event].lumalink}>Register</Link> */}
+                        <Link href={data[params.event].lumalink} className="mt-10 bg-white p-4 px-10 rounded-full text-white font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:scale-105 transform transition duration-300 ease-in-out">Register</Link>
                         {/* <strong> Timing:</strong> {data[params.event].timing} */}
                     </p>
                 </div>
