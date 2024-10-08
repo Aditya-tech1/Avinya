@@ -71,14 +71,13 @@ function page() {
   ];
   return (
     <section className="flex flex-col my-10 text-white">
-      <h1 className=" mt-16 w-full mx-24">
+      <h1 className=" mt-16 w-full md:mx-24 mx-10">
         <span className="text-[3rem] w-full text-center beforee relative">
           Events
         </span>
-
       </h1>
 
-      <div className="grid grid-cols-2 gap-10 col-g px-24 mt-10">
+      <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-10 col-g md:px-24 mt-10">
         {events.map((event, index) => (
           <EventCard key={index} data={event} />
         ))}
