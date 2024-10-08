@@ -58,7 +58,7 @@ export default function EventSection() {
   };
 
   return (
-    <div className="w-full p-4 md:px-24 px-10 text-center flex flex-col items-center justify-start md:mt-16 mt-4">
+    <div className="text-white w-full p-4 md:px-24 px-10 text-center flex flex-col items-center justify-start md:mt-16 mt-4">
       <h1 className=" md:mt-16 mt-0 w-full text-left">
         <span className="text-[3rem] w-full beforee relative">
           Events

@@ -10,7 +10,7 @@ export default function About() {
       className="w-full min-h-screen flex flex-col items-center justify-start pt-16 relative"
     >
       <h1 className="md:mt-16 mt-4 w-full md:px-24 px-10">
-        <span className="text-[3rem] w-full text-center beforee relative">
+        <span className="text-[3rem] w-full text-center beforee relative text-white">
           About
         </span>
       </h1>
@@ -33,9 +33,10 @@ export default function About() {
           Dreams, Forging Futures,&apos; अVINYA focuses on developing technical,
           communication, and presentation skills. This year marks the second
           edition, now an inter-college event, welcoming participants from
-          various institutions to collaborate and showcase their abilities.{" "}
+          various institutions to collaborate and showcase their abilities.
           <br />
-          The fest features eight unique events: <br />
+          The fest features eight unique events:
+          <br />
           <ul>
             <li className="list-disc ml-2">Komic Sense</li>
             <li className="list-disc ml-2">Battle of Minds</li>

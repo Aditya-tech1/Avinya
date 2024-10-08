@@ -439,7 +439,7 @@ export default function EventItem() {
 
     const liStyle = " ml-6 mt-2";
     return (
-        <div className=" w-full h-auto px-24 flex flex-col justify-center min-h-screen">
+        <div className=" w-full h-auto text-white px-24 flex flex-col justify-center min-h-screen">
             <div className="flex flex-row gap-10">
                 <div className="w-1/3 ">
                     <Image src={poster} alt="Poster" className="w-full h-auto rounded" />

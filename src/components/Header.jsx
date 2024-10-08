@@ -5,7 +5,7 @@ import Link from "next/link";
 function Header() {
 
   return (
-    <div className="w-full h-20 items-center justify-between p-6 px-10 bg-transparent fixed top-0 left-0 backdrop-blur-xl z-10 md:flex hidden">
+    <div className="w-full text-white h-20 items-center justify-between p-6 px-10 bg-transparent fixed top-0 left-0 backdrop-blur-xl z-10 md:flex hidden">
       <div className="logo w-2/5 flex items-center">
         <Image src={logo} alt="" height={50} className="h-full w-auto" />
         <h2 className="w-1/2 ml-2 text-white">

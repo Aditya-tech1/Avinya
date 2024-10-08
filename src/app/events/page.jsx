@@ -70,7 +70,7 @@ function page() {
     },
   ];
   return (
-    <section className="flex flex-col my-10">
+    <section className="flex flex-col my-10 text-white">
       <h1 className=" mt-16 w-full mx-24">
         <span className="text-[3rem] w-full text-center beforee relative">
           Events

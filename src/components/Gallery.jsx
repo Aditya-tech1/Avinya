@@ -37,7 +37,7 @@ export default function Gallery() {
     const fullGallery= e.target.src
   };
   return (
-    <div id="gallery" className="w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
+    <div id="gallery" className="text-white w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
       <h1 className=" mt-16 w-full text-left">
         <span className="md:text-[3rem] text-[1.5rem] w-full beforee relative">
           Glimpse of the{" "}
