@@ -43,8 +43,8 @@ function page({params}) {
                 five: "Submission Email: Send your abstract to societytheempirical@gmail.com.",
                 six: "Note: Shortlisting for participation will be based on abstract quality.",
                 seven: "Time Limit: Participants will have a total of 5 minutes: 3 minutes for presentation, 2 minutes for a question-answer session with the panel",
-                eight: "Participant Limit: A maximum of 15 participants will be selected.",
-                nine: "",
+                eight: "Participant Limit: A maximum of 20 participants will be selected.",
+                nine: "Strictly adhere to the provided topics when creating their posters.",
                 ten: "",
             },
 
@@ -52,7 +52,7 @@ function page({params}) {
             presentationFormat: {
                 one: "3 minutes to explain the core concepts of the poster.",
                 two: "2 minutes for a dynamic Q&A session with the judging panel ",
-                three: "Note: All participants must adhere to the provided topics when creating their posters.",
+                three: "",
                 four: "",
             },
 
@@ -97,7 +97,7 @@ function page({params}) {
             heading3: "",
             desc3: "",
 
-            venue: "Auditorium",
+            venue: "IT Lab, MMS Block",
             timing: "09:00 AM - 11:00 AM",
 
 
@@ -163,7 +163,7 @@ function page({params}) {
             heading3: "Judging Criteria",
             desc3: "Judging will be based on two key criteria: presentation and taste. Additionally, extra points will be awarded for maintaining a clean and organized setup. Get ready to showcase your creativity and bring science to the table!",
 
-            venue: "Auditorium",
+            venue: "R1, MMS Block",
             timing: "09:00 AM - 11:00 AM",
 
 
@@ -236,14 +236,14 @@ function page({params}) {
 
             majorHeading1: "Guidlines",
             guidlines: {
-                one: "Participants will be provided with a designated poster template. Poster size is set at 3' x 2'.",
-                two: "Deadline: Abstracts must be submitted by 11th October 2024.",
+                one: "Deadline: Submit by 11th October 2024.",
+                two: "Send to:  societytheempirical@gmail.com.",
                 three: "Format: Submit the abstract as a Microsoft Word file.",
-                four: "Content: The abstract (150 words max) must include: Title of the poster, Author's name(s), College name (Affiliation)",
-                five: "Submission Email: Send your abstract to societytheempirical@gmail.com.",
-                six: "Note: Shortlisting for participation will be based on abstract quality.",
-                seven: "Time Limit: Participants will have a total of 5 minutes: 3 minutes for presentation, 2 minutes for a question-answer session with the panel",
-                eight: "Participant Limit: A maximum of 15 participants will be selected.",
+                four: "Template: Use the provided 7-slide template without alterations.",
+                five: "Duration: 8 minutes for presentation, followed by 2 minutes for Q&A.",
+                six: "Selection Criteria: Based on the quality and relevance of the abstract.",
+                seven: "Participants Limit: Up to 15 participants will be selected to present.",
+                eight: "Stric",
                 nine: "",
                 ten: "",
             },
@@ -368,7 +368,7 @@ function page({params}) {
             desc3: "",
 
             submissiondate: "11th October 2024",
-            venue: "Auditorium",
+            venue: "EG Lab, MMS Block",
             timing: "09:00 AM - 11:00 AM",
 
 
@@ -435,31 +435,31 @@ function page({params}) {
             heading3: "",
             desc3: "",
 
-            venue: "Auditorium",
+            venue: "IT Lab, MMS Block",
             timing: "09:00 AM - 11:00 AM",
 
             majorHeading1: "Guidlines",
             guidlines: {
-                one: "1. Entry Limit: A maximum of 25 entries will be accepted on a first-come, first-served basis.",
-                two: "2. Topic Announcement: The theme will be disclosed at the beginning of the event.",
-                three: "3. Creative Exploration: Participants are encouraged to creatively interpret and illustrate the given topic through their comic story.",
-                four: "4. Time Constraint: Each participant will have 45 minutes to complete their comic.",
-                five: "5. Materials Provided: Drawing sheets will be supplied at the venue for your convenience.",
-                six: "6. Participant Supplies: Participants are required to bring their own stationery and art materials to facilitate their creative process.",
-                seven: "",
-                eight: "",
-                nine: "",
-                ten: "",
-            },
-
-            majorHeading3: "Competition Structure:",
-            topics: {
                 one: "Round 1: 15 mins (15 questions)",
                 two: "Round 2: 15 mins (15 questions)",
                 three: "Round 3: 30 mins (10 questions)",
                 four: "Question Types: MCQ, True/False, Multiple Correct, Riddles, Calculations.",
                 five: "Advancement: Top 50% move to the next round.",
                 six: "Winners: Top 3 based on final round scores.",
+                seven: "",
+                eight: "",
+                nine: "",
+                ten: "",
+            },
+
+            majorHeading3: "",
+            topics: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+                five: "",
+                six: "",
                 seven: "",
                 eight: "",
                 nine: "",
@@ -546,7 +546,7 @@ function page({params}) {
                     <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
                         <strong> Venue: </strong>{data[params.event].venue}<br /> <br />
-                        <strong> Timing:</strong> {data[params.event].timing}
+                        {/* <strong> Timing:</strong> {data[params.event].timing} */}
                     </p>
                 </div>
                 <div className="w-2/3 text-sm">
