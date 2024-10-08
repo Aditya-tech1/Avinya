@@ -11,6 +11,8 @@ import techStar from "@/assets/techStar.jpg";
 import innovision from "@/assets/innovision.jpg";
 import iqonnect from "@/assets/iQonnect.jpg";
 import explison from "@/assets/explicon.jpg";
+import pptTemplate from "@/assets/templates/innoVisionTemplate.pptx";
+// import posterTemplate from "@/assets/posterTemplate.docx";
 
 function page({params}) {
     const headingStyle = "text-lg font-bold mt-4";
@@ -82,6 +84,7 @@ function page({params}) {
             },
             imgurl:explison,
             lumalink:"https://lu.ma/r0i224ni",
+            template:posterTemplate,
 
         },
         // The Bug Hunt
@@ -149,6 +152,7 @@ function page({params}) {
             },
             imgurl:bugHunt,
             lumalink:"https://lu.ma/q2bbotry",
+            template:"",
 
         },
         //Bits 'N' Bytes
@@ -216,6 +220,7 @@ function page({params}) {
             },
             imgurl:bitNBytes,
             lumalink:"https://lu.ma/d4307fog",
+            template:"",
 
         },
         //Innovision
@@ -247,7 +252,7 @@ function page({params}) {
                 five: "Duration: 8 minutes for presentation, followed by 2 minutes for Q&A.",
                 six: "Selection Criteria: Based on the quality and relevance of the abstract.",
                 seven: "Participants Limit: Up to 15 participants will be selected to present.",
-                eight: "Stric",
+                eight: "Strictly adhere to the provided topics when creating their posters.",
                 nine: "",
                 ten: "",
             },
@@ -287,6 +292,7 @@ function page({params}) {
             },
             imgurl:innovision,
             lumalink:"https://lu.ma/6tsntzyl",
+            template:"Click Here to download the template",
 
         },
         // Group Discussion
@@ -355,6 +361,7 @@ function page({params}) {
             },
             imgurl:battleOfMinds,
             lumalink:"https://lu.ma/5y976xse",
+            template:"",
 
             
         },
@@ -425,6 +432,7 @@ function page({params}) {
             },
             imgurl:komicSense,
             lumalink:"https://lu.ma/vo2u8ijn",
+            template:"",
 
         },
         //IQonnect Quiz
@@ -482,6 +490,7 @@ function page({params}) {
             },
             imgurl:iqonnect,
             lumalink:"https://lu.ma/zckvu87q",
+            template:"",
 
             
         },
@@ -542,6 +551,7 @@ function page({params}) {
             },
             imgurl:techStar,
             lumalink:"https://lu.ma/mnbh9hjb",
+            template:"",
 
            
         }
@@ -615,6 +625,7 @@ function page({params}) {
                         <li className={liStyle}>{data[params.event].guidlines.eight}</li>
                         <li className={liStyle}>{data[params.event].guidlines.nine}</li>
                         <li className={liStyle}>{data[params.event].guidlines.ten}</li>
+                        
 
                     </ul>
                 </div>
