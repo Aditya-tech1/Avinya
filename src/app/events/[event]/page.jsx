@@ -104,6 +104,37 @@ function page() {
                 nine: "",
                 ten: "",
             },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
+
+            majorHeading3: "Topics",
+            topics: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+                five: "",
+                six: "",
+                seven: "",
+                eight: "",
+                nine: "",
+                ten: "",
+                eleven: "",
+                twelve: "",
+                thirteen: "",
+                fourteen: "",
+                fifteen: "",
+                sixteen: "",
+                seventeen: "",
+                eighteen: "",
+                nineteen: "",
+                twenty: "",
+            },
 
         },
         //Bits 'N' Bytes
@@ -138,6 +169,37 @@ function page() {
                 nine: "9. Judgement Criteria :- Presentation and taste",
                 ten: "",
             },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
+
+            majorHeading3: "Topics",
+            topics: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+                five: "",
+                six: "",
+                seven: "",
+                eight: "",
+                nine: "",
+                ten: "",
+                eleven: "",
+                twelve: "",
+                thirteen: "",
+                fourteen: "",
+                fifteen: "",
+                sixteen: "",
+                seventeen: "",
+                eighteen: "",
+                nineteen: "",
+                twenty: "",
+            },
 
         },
         //Innovision
@@ -152,8 +214,8 @@ function page() {
             heading2: "Final Presentation",
             desc2: "Finalists will be provided with a 7-slide PowerPoint template, which they must use to develop and present their concepts. Each presentation will include: • 8 minutes for delivering the main content.• 2 minutes for an engaging Q&A session with the judges.With a focus on clarity, originality, and relevance, InnoVision promises to be a highly competitive and experience. Be part of this inspiring event where groundbreaking ideas come to life, and the next generation of innovators step forward.",
 
-            // heading3: "Judging Criteria",
-            // desc3: "Participants will be evaluated on content, originality, and presentation. Only 15 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
+            heading3: "",
+            desc3: "",
 
             submissiondate: "11th October 2024",
             venue: "Auditorium",
@@ -174,13 +236,15 @@ function page() {
                 ten: "",
             },
 
-            // majorHeading2: "Presentation Format",
-            // presentationFormat: {
-            //     one: "3 minutes to explain the core concepts of the poster.",
-            //     two: "2 minutes for a dynamic Q&A session with the judging panel ",
-            //     three: "Note: All participants must adhere to the provided topics when creating their posters.",
-            //     four: "",
-            // },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
+
+           
 
             majorHeading3: "Topics",
             topics: {
@@ -216,11 +280,11 @@ function page() {
             heading1: "Instructions",
             desc1: "Please note that indiscipline will not be tolerated, and the decision of the judging panel will be considered final. Arguing with the judges is not permitted. Groups will be formed on the spot, and topics will also be assigned at that time. Each group will have only 4 minutes for their discussion. During the GD, please address your fellow participants in a formal manner. For more information, refer to the Group Discussion guidelines.",
 
-            // heading2: "Final Presentation",
-            // desc2: "Shortlisted participants will create their posters using a designated template that will be provided. Posters will be presented on 15th October 2024.",
+            heading2: "",
+            desc2: "",
 
-            // heading3: "Judging Criteria",
-            // desc3: "Participants will be evaluated on content, originality, and presentation. Only 15 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
+            heading3: "",
+            desc3: "",
 
             venue: "Auditorium",
             timing: "09:00 AM - 11:00 AM",
@@ -240,38 +304,39 @@ function page() {
                 ten: "",
             },
 
-            // majorHeading2: "Presentation Format",
-            // presentationFormat: {
-            //     one: "3 minutes to explain the core concepts of the poster.",
-            //     two: "2 minutes for a dynamic Q&A session with the judging panel ",
-            //     three: "Note: All participants must adhere to the provided topics when creating their posters.",
-            //     four: "",
-            // },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
 
-            // majorHeading3: "Topics",
-            // topics: {
-            //     one: "1. VIKSIT BHARAT(Developed India 2047)",
-            //     two: "2. ML for climate change Prediction ",
-            //     three: "3.	Role of AI in Big data",
-            //     four: "4.	Digital Detox",
-            //     five: "5.	Waste Reduction ",
-            //     six: "6.	Impact of technology on workplace ",
-            //     seven: "7.	Sustainability Technology ",
-            //     eight: "8.	Waste Reduction ",
-            //     nine: "9.	Impact of 5G Technology on connectivity",
-            //     ten: "10.	AI Ethics ",
-            //     eleven: "11.	Cyber bullying (Awareness and prevention strategies in digital communication ",
-            //     twelve: "12.	Healthy Eating and Nutrition ",
-            //     thirteen: "13.	Robotics and automation in Industry",
-            //     fourteen: "14.	Space exploration (future vision of space stations)",
-            //     fifteen: "",
-            //     sixteen: "",
-            //     seventeen: "",
-            //     eighteen: "",
-            //     nineteen: "",
-            //     twenty: "",
-            // },
+            majorHeading3: "Topics",
+            topics: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+                five: "",
+                six: "",
+                seven: "",
+                eight: "",
+                nine: "",
+                ten: "",
+                eleven: "",
+                twelve: "",
+                thirteen: "",
+                fourteen: "",
+                fifteen: "",
+                sixteen: "",
+                seventeen: "",
+                eighteen: "",
+                nineteen: "",
+                twenty: "",
+            },
 
+            
         },
         // komic sense
         "komicsense": {
@@ -279,14 +344,14 @@ function page() {
             mainHeading: "Komic Sense",
             desc: "Calling all creative minds with a knack for technology! The Technical Comic Making Competition is an opportunity to express complex technical topics in a fun, visually engaging, and understandable way. Whether you're passionate about computer science, engineering, physics, or any other technical field, this is your chance to break down challenging concepts into entertaining comic strips.",
 
-            // heading1: "Instructions",
-            // desc1: "Please note that indiscipline will not be tolerated, and the decision of the judging panel will be considered final. Arguing with the judges is not permitted. Groups will be formed on the spot, and topics will also be assigned at that time. Each group will have only 4 minutes for their discussion. During the GD, please address your fellow participants in a formal manner. For more information, refer to the Group Discussion guidelines.",
+            heading1: "",
+            desc1: "",
 
-            // heading2: "Final Presentation",
-            // desc2: "Shortlisted participants will create their posters using a designated template that will be provided. Posters will be presented on 15th October 2024.",
+            heading2: "",
+            desc2: "",
 
-            // heading3: "Judging Criteria",
-            // desc3: "Participants will be evaluated on content, originality, and presentation. Only 15 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
+            heading3: "Judging Criteria",
+            desc3: "",
 
             submissiondate: "11th October 2024",
             venue: "Auditorium",
@@ -307,37 +372,37 @@ function page() {
                 ten: "",
             },
 
-            // majorHeading2: "Presentation Format",
-            // presentationFormat: {
-            //     one: "3 minutes to explain the core concepts of the poster.",
-            //     two: "2 minutes for a dynamic Q&A session with the judging panel ",
-            //     three: "Note: All participants must adhere to the provided topics when creating their posters.",
-            //     four: "",
-            // },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
 
-            // majorHeading3: "Topics",
-            // topics: {
-            //     one: "1. VIKSIT BHARAT(Developed India 2047)",
-            //     two: "2. ML for climate change Prediction ",
-            //     three: "3.	Role of AI in Big data",
-            //     four: "4.	Digital Detox",
-            //     five: "5.	Waste Reduction ",
-            //     six: "6.	Impact of technology on workplace ",
-            //     seven: "7.	Sustainability Technology ",
-            //     eight: "8.	Waste Reduction ",
-            //     nine: "9.	Impact of 5G Technology on connectivity",
-            //     ten: "10.	AI Ethics ",
-            //     eleven: "11.	Cyber bullying (Awareness and prevention strategies in digital communication ",
-            //     twelve: "12.	Healthy Eating and Nutrition ",
-            //     thirteen: "13.	Robotics and automation in Industry",
-            //     fourteen: "14.	Space exploration (future vision of space stations)",
-            //     fifteen: "",
-            //     sixteen: "",
-            //     seventeen: "",
-            //     eighteen: "",
-            //     nineteen: "",
-            //     twenty: "",
-            // },
+            majorHeading3: "Topics",
+            topics: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+                five: "",
+                six: "",
+                seven: "",
+                eight: "",
+                nine: "",
+                ten: "",
+                eleven: "",
+                twelve: "",
+                thirteen: "",
+                fourteen: "",
+                fifteen: "",
+                sixteen: "",
+                seventeen: "",
+                eighteen: "",
+                nineteen: "",
+                twenty: "",
+            },
 
         },
         //IQonnect Quiz
@@ -349,11 +414,11 @@ function page() {
             heading1: "Event Format",
             desc1: "With only 60 minutes to prove your skills, the top 50% of participants will advance after each round, and the final three will be crowned as champions. This is your chance to showcase your brilliance, win exciting prizes, and earn the ultimate bragging rights. Are you ready to connect with your IQ and take the challenge? Let’s find out on 15th October 2024!",
 
-            // heading2: "Final Presentation",
-            // desc2: "Shortlisted participants will create their posters using a designated template that will be provided. Posters will be presented on 15th October 2024.",
+            heading2: "",
+            desc2: "",
 
-            // heading3: "Judging Criteria",
-            // desc3: "Participants will be evaluated on content, originality, and presentation. Only 15 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
+            heading3: "",
+            desc3: "",
 
             venue: "Auditorium",
             timing: "09:00 AM - 11:00 AM",
@@ -385,6 +450,16 @@ function page() {
                 nine: "",
                 ten: "",
             },
+
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
+
+            
         },
 
         // Tomorrow's Tech Star
@@ -434,6 +509,15 @@ function page() {
                 nine: "",
                 ten: "",
             },
+            majorHeading2: "",
+            presentationFormat: {
+                one: "",
+                two: "",
+                three: "",
+                four: "",
+            },
+
+           
         }
     };
 
@@ -444,66 +528,66 @@ function page() {
                 <div className="w-1/3 ">
                     <Image src={poster} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
-                        <strong> Venue: </strong>{data["explicon"].venue} <br /> <br />
-                        <strong> Timing:</strong> {data["explicon"].timing}
+                        <strong> Venue: </strong>{data["techstar"].venue} <br /> <br />
+                        <strong> Timing:</strong> {data["techstar"].timing}
                     </p>
                 </div>
                 <div className="w-2/3 text-sm">
                     <h2 className='text-lg font-bold'>
-                        {data["explicon"].mainHeading}
+                        {data["techstar"].mainHeading}
                     </h2>
-                    {data["explicon"].desc}
-                    <h2 className={headingStyle}>{data["explicon"].heading1}</h2>
-                    {data["explicon"].desc1}
-                    <h2 className={headingStyle}>{data["explicon"].heading2}</h2>
-                    {data["explicon"].desc2}
+                    {data["techstar"].desc}
+                    <h2 className={headingStyle}>{data["techstar"].heading1}</h2>
+                    {data["techstar"].desc1}
+                    <h2 className={headingStyle}>{data["techstar"].heading2}</h2>
+                    {data["techstar"].desc2}
                     <h2 className={headingStyle}>
-                        {data["explicon"].majorHeading2}
+                        {data["techstar"].majorHeading2}
                     </h2>
                     <ul>
-                        <li className={liStyle}>{data["explicon"].presentationFormat.one}</li>
-                        <li className={liStyle}>{data["explicon"].presentationFormat.two}</li>
-                        <li className={liStyle}>{data["explicon"].presentationFormat.three}</li>
-                        <li className={liStyle}>{data["explicon"].presentationFormat.four}</li>
+                        <li className={liStyle}>{data["techstar"].presentationFormat.one}</li>
+                        <li className={liStyle}>{data["techstar"].presentationFormat.two}</li>
+                        <li className={liStyle}>{data["techstar"].presentationFormat.three}</li>
+                        <li className={liStyle}>{data["techstar"].presentationFormat.four}</li>
                     </ul>
-                    <h2 className={headingStyle}>{data["explicon"].heading3}</h2>
-                    {data["explicon"].desc3}
+                    <h2 className={headingStyle}>{data["techstar"].heading3}</h2>
+                    {data["techstar"].desc3}
 
-                    <h2 className={headingStyle}>{data["explicon"].majorHeading3}</h2>
+                    <h2 className={headingStyle}>{data["techstar"].majorHeading3}</h2>
                     <ul>
-                        <li className={liStyle}>{data["explicon"].topics.one}</li>
-                        <li className={liStyle}>{data["explicon"].topics.two}</li>
-                        <li className={liStyle}>{data["explicon"].topics.three}</li>
-                        <li className={liStyle}>{data["explicon"].topics.four}</li>
-                        <li className={liStyle}>{data["explicon"].topics.five}</li>
-                        <li className={liStyle}>{data["explicon"].topics.six}</li>
-                        <li className={liStyle}>{data["explicon"].topics.seven}</li>
-                        <li className={liStyle}>{data["explicon"].topics.eight}</li>
-                        <li className={liStyle}>{data["explicon"].topics.nine}</li>
-                        <li className={liStyle}>{data["explicon"].topics.ten}</li>
-                        <li className={liStyle}>{data["explicon"].topics.eleven}</li>
-                        <li className={liStyle}>{data["explicon"].topics.twelve}</li>
-                        <li className={liStyle}>{data["explicon"].topics.thirteen}</li>
-                        <li className={liStyle}>{data["explicon"].topics.fourteen}</li>
-                        <li className={liStyle}>{data["explicon"].topics.fifteen}</li>
-                        <li className={liStyle}>{data["explicon"].topics.sixteen}</li>
-                        <li className={liStyle}>{data["explicon"].topics.seventeen}</li>
+                        <li className={liStyle}>{data["techstar"].topics.one}</li>
+                        <li className={liStyle}>{data["techstar"].topics.two}</li>
+                        <li className={liStyle}>{data["techstar"].topics.three}</li>
+                        <li className={liStyle}>{data["techstar"].topics.four}</li>
+                        <li className={liStyle}>{data["techstar"].topics.five}</li>
+                        <li className={liStyle}>{data["techstar"].topics.six}</li>
+                        <li className={liStyle}>{data["techstar"].topics.seven}</li>
+                        <li className={liStyle}>{data["techstar"].topics.eight}</li>
+                        <li className={liStyle}>{data["techstar"].topics.nine}</li>
+                        <li className={liStyle}>{data["techstar"].topics.ten}</li>
+                        <li className={liStyle}>{data["techstar"].topics.eleven}</li>
+                        <li className={liStyle}>{data["techstar"].topics.twelve}</li>
+                        <li className={liStyle}>{data["techstar"].topics.thirteen}</li>
+                        <li className={liStyle}>{data["techstar"].topics.fourteen}</li>
+                        <li className={liStyle}>{data["techstar"].topics.fifteen}</li>
+                        <li className={liStyle}>{data["techstar"].topics.sixteen}</li>
+                        <li className={liStyle}>{data["techstar"].topics.seventeen}</li>
 
 
                     </ul>
 
-                    <h2 className={headingStyle}>{data["explicon"].majorHeading1}</h2>
+                    <h2 className={headingStyle}>{data["techstar"].majorHeading1}</h2>
                     <ul>
-                        <li className={liStyle}>{data["explicon"].guidlines.one}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.two}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.three}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.four}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.five}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.six}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.seven}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.eight}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.nine}</li>
-                        <li className={liStyle}>{data["explicon"].guidlines.ten}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.one}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.two}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.three}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.four}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.five}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.six}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.seven}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.eight}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.nine}</li>
+                        <li className={liStyle}>{data["techstar"].guidlines.ten}</li>
 
                     </ul>
                 </div>
