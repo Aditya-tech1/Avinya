@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import poster from "../../../assets/poster.jpg";
+// import poster from "../../../assets/poster.jpg";
 import EventCard from "@/components/EventCard";
 import komicSense from "@/assets/komicSense.jpg";
 import battleOfMinds from "@/assets/battleOfMinds.png";
@@ -84,7 +84,7 @@ function page({params}) {
             },
             imgurl:explison,
             lumalink:"https://lu.ma/r0i224ni",
-            template:posterTemplate,
+            // template:posterTemplate,
 
         },
         // The Bug Hunt
