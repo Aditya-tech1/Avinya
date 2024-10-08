@@ -559,7 +559,7 @@ function page({params}) {
 
     const liStyle = " ml-6 mt-2";
     return (
-        <div className=" text-white w-full h-auto md:mt-28 mt-10 md:px-24 px-10 flex md:flex-col flex-row justify-center min-h-screen">
+        <div className=" text-white w-full h-auto mt-28 md:px-24 px-10 flex md:flex-col flex-row justify-center min-h-screen">
             <div className="flex md:flex-row flex-col gap-10">
                 <div className="md:w-1/3 w-full ">
                     <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
