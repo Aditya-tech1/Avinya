@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react"
+
 import EventCard from "@/components/EventCard";
 import komicSense from "@/assets/komicSense.jpg";
 import battleOfMinds from "@/assets/battleOfMinds.png";
