@@ -19,7 +19,7 @@ function Header() {
         <Link href="/#about" className="" >About</Link>
         <Link href="/#gallery" className="" >Gallery</Link>
         <Link href="/events" className="">Events</Link>
-        <Link href="/" className="">Contact</Link>
+        <Link href="/contacts" className="">Contact</Link>
       </nav>
     </div>
   );
