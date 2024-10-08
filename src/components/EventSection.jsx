@@ -8,51 +8,52 @@ import techStar from "@/assets/techStar.jpg";
 import innovision from "@/assets/innovision.jpg";
 import iqonnect from "@/assets/iQonnect.jpg";
 import explison from "@/assets/explicon.jpg";
+import Link from "next/link";
 
 
-export default function EventSection(data) {
+export default function EventSection() {
  
 
   const mainEvents = {
     event1: {
       eventname: "Komic Sense",
       eventimage: komicSense,
-      pageLink: "events/event1"
+      pageLink: "events/komicsense"
     },
     event2: {
       eventname: "Battle Of Minds",
       eventimage: battleOfMinds,
-      pageLink: "events/event1"
+      pageLink: "events/battleofminds"
     },
     event3: {
       eventname: "The Bug Hunt",
       eventimage: bugHunt,
-      pageLink: "events/event1"
+      pageLink: "events/thebughunt"
     },
     event4: {
       eventname: "Tomorow's Tech Star",
       eventimage: techStar,
-      pageLink: "events/event1"
+      pageLink: "events/techstar"
     },
     event5: {
       eventname: "Innovision",
       eventimage: innovision,
-      pageLink: "events/event1"
+      pageLink: "events/innovision"
     },
     event6: {
       eventname: "IQonnect",
       eventimage: iqonnect,
-      pageLink: "events/event1"
+      pageLink: "events/iqonnect"
     },
     event7: {
       eventname: "Explicon",
       eventimage: explison,
-      pageLink: "events/event1"
+      pageLink: "events/explicon"
     },
     event8: {
       eventname: "Bits 'N' Bytes",
       eventimage: bitNBytes,
-      pageLink: "events/event1"
+      pageLink: "events/bitsnbytes"
     },
   };
 
@@ -65,7 +66,8 @@ export default function EventSection(data) {
       </h1>
       <div className="flex flex-wrap justify-center w-full md:px-24 px-10 gap-10 mt-14">
         {Object.keys(mainEvents).map((event, index) => (
-          <div className="w-60 h-72  rounded p-4 flex flex-col items-center hover:-translate-y-2 transition-transform justify-center gradborderevent cursor-pointer relative shadow" key={index}>
+          <Link href={`${mainEvents[event].pageLink}`} className="w-60 h-72  rounded p-4 flex flex-col items-center hover:-translate-y-2 transition-transform justify-center gradborderevent cursor-pointer relative shadow" key={index}>
+           
             <Image
               src={mainEvents[event].eventimage}
               alt="placeholder"
@@ -73,7 +75,8 @@ export default function EventSection(data) {
             />
             <p className="text-[#FFD400] rokkitt-regular">{mainEvents[event].eventname}</p>
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray-900 -z-10"></div>
-          </div>
+            
+          </Link>
         ))}
 
       </div>

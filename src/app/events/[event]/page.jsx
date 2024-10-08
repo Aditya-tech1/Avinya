@@ -1,8 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import poster from "../../../assets/poster.jpg";
+import EventCard from "@/components/EventCard";
+import komicSense from "@/assets/komicSense.jpg";
+import battleOfMinds from "@/assets/battleOfMinds.png";
+import bugHunt from "@/assets/bugHunt.jpg";
+import bitNBytes from "@/assets/bitsNBytes.jpg";
+import techStar from "@/assets/techStar.jpg";
+import innovision from "@/assets/innovision.jpg";
+import iqonnect from "@/assets/iQonnect.jpg";
+import explison from "@/assets/explicon.jpg";
 
-function page() {
+function page({params}) {
     const headingStyle = "text-lg font-bold mt-4";
     const data = {
         // Scientific Poster Competition
@@ -70,6 +79,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:explison,
 
         },
         // The Bug Hunt
@@ -112,7 +122,7 @@ function page() {
                 four: "",
             },
 
-            majorHeading3: "Topics",
+            majorHeading3: "",
             topics: {
                 one: "",
                 two: "",
@@ -135,6 +145,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:bugHunt,
 
         },
         //Bits 'N' Bytes
@@ -177,7 +188,7 @@ function page() {
                 four: "",
             },
 
-            majorHeading3: "Topics",
+            majorHeading3: "",
             topics: {
                 one: "",
                 two: "",
@@ -200,6 +211,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:bitNBytes,
 
         },
         //Innovision
@@ -269,6 +281,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:innovision,
 
         },
         // Group Discussion
@@ -312,7 +325,7 @@ function page() {
                 four: "",
             },
 
-            majorHeading3: "Topics",
+            majorHeading3: "",
             topics: {
                 one: "",
                 two: "",
@@ -335,6 +348,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:battleOfMinds,
 
             
         },
@@ -380,7 +394,7 @@ function page() {
                 four: "",
             },
 
-            majorHeading3: "Topics",
+            majorHeading3: "",
             topics: {
                 one: "",
                 two: "",
@@ -403,6 +417,7 @@ function page() {
                 nineteen: "",
                 twenty: "",
             },
+            imgurl:komicSense,
 
         },
         //IQonnect Quiz
@@ -458,6 +473,7 @@ function page() {
                 three: "",
                 four: "",
             },
+            imgurl:iqonnect,
 
             
         },
@@ -516,6 +532,7 @@ function page() {
                 three: "",
                 four: "",
             },
+            imgurl:techStar,
 
            
         }
@@ -526,68 +543,68 @@ function page() {
         <div className=" w-full h-auto mt-28 px-24 flex flex-col justify-center min-h-screen">
             <div className="flex flex-row gap-10">
                 <div className="w-1/3 ">
-                    <Image src={poster} alt="Poster" className="w-full h-auto rounded" />
+                    <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
-                        <strong> Venue: </strong>{data["techstar"].venue} <br /> <br />
-                        <strong> Timing:</strong> {data["techstar"].timing}
+                        <strong> Venue: </strong>{data[params.event].venue}<br /> <br />
+                        <strong> Timing:</strong> {data[params.event].timing}
                     </p>
                 </div>
                 <div className="w-2/3 text-sm">
                     <h2 className='text-lg font-bold'>
-                        {data["techstar"].mainHeading}
+                        {data[params.event].mainHeading}
                     </h2>
-                    {data["techstar"].desc}
-                    <h2 className={headingStyle}>{data["techstar"].heading1}</h2>
-                    {data["techstar"].desc1}
-                    <h2 className={headingStyle}>{data["techstar"].heading2}</h2>
-                    {data["techstar"].desc2}
+                    {data[params.event].desc}
+                    <h2 className={headingStyle}>{data[params.event].heading1}</h2>
+                    {data[params.event].desc1}
+                    <h2 className={headingStyle}>{data[params.event].heading2}</h2>
+                    {data[params.event].desc2}
                     <h2 className={headingStyle}>
-                        {data["techstar"].majorHeading2}
+                        {data[params.event].majorHeading2}
                     </h2>
                     <ul>
-                        <li className={liStyle}>{data["techstar"].presentationFormat.one}</li>
-                        <li className={liStyle}>{data["techstar"].presentationFormat.two}</li>
-                        <li className={liStyle}>{data["techstar"].presentationFormat.three}</li>
-                        <li className={liStyle}>{data["techstar"].presentationFormat.four}</li>
+                        <li className={liStyle}>{data[params.event].presentationFormat.one}</li>
+                        <li className={liStyle}>{data[params.event].presentationFormat.two}</li>
+                        <li className={liStyle}>{data[params.event].presentationFormat.three}</li>
+                        <li className={liStyle}>{data[params.event].presentationFormat.four}</li>
                     </ul>
-                    <h2 className={headingStyle}>{data["techstar"].heading3}</h2>
-                    {data["techstar"].desc3}
+                    <h2 className={headingStyle}>{data[params.event].heading3}</h2>
+                    {data[params.event].desc3}
 
-                    <h2 className={headingStyle}>{data["techstar"].majorHeading3}</h2>
+                    <h2 className={headingStyle}>{data[params.event].majorHeading3}</h2>
                     <ul>
-                        <li className={liStyle}>{data["techstar"].topics.one}</li>
-                        <li className={liStyle}>{data["techstar"].topics.two}</li>
-                        <li className={liStyle}>{data["techstar"].topics.three}</li>
-                        <li className={liStyle}>{data["techstar"].topics.four}</li>
-                        <li className={liStyle}>{data["techstar"].topics.five}</li>
-                        <li className={liStyle}>{data["techstar"].topics.six}</li>
-                        <li className={liStyle}>{data["techstar"].topics.seven}</li>
-                        <li className={liStyle}>{data["techstar"].topics.eight}</li>
-                        <li className={liStyle}>{data["techstar"].topics.nine}</li>
-                        <li className={liStyle}>{data["techstar"].topics.ten}</li>
-                        <li className={liStyle}>{data["techstar"].topics.eleven}</li>
-                        <li className={liStyle}>{data["techstar"].topics.twelve}</li>
-                        <li className={liStyle}>{data["techstar"].topics.thirteen}</li>
-                        <li className={liStyle}>{data["techstar"].topics.fourteen}</li>
-                        <li className={liStyle}>{data["techstar"].topics.fifteen}</li>
-                        <li className={liStyle}>{data["techstar"].topics.sixteen}</li>
-                        <li className={liStyle}>{data["techstar"].topics.seventeen}</li>
+                        <li className={liStyle}>{data[params.event].topics.one}</li>
+                        <li className={liStyle}>{data[params.event].topics.two}</li>
+                        <li className={liStyle}>{data[params.event].topics.three}</li>
+                        <li className={liStyle}>{data[params.event].topics.four}</li>
+                        <li className={liStyle}>{data[params.event].topics.five}</li>
+                        <li className={liStyle}>{data[params.event].topics.six}</li>
+                        <li className={liStyle}>{data[params.event].topics.seven}</li>
+                        <li className={liStyle}>{data[params.event].topics.eight}</li>
+                        <li className={liStyle}>{data[params.event].topics.nine}</li>
+                        <li className={liStyle}>{data[params.event].topics.ten}</li>
+                        <li className={liStyle}>{data[params.event].topics.eleven}</li>
+                        <li className={liStyle}>{data[params.event].topics.twelve}</li>
+                        <li className={liStyle}>{data[params.event].topics.thirteen}</li>
+                        <li className={liStyle}>{data[params.event].topics.fourteen}</li>
+                        <li className={liStyle}>{data[params.event].topics.fifteen}</li>
+                        <li className={liStyle}>{data[params.event].topics.sixteen}</li>
+                        <li className={liStyle}>{data[params.event].topics.seventeen}</li>
 
 
                     </ul>
 
-                    <h2 className={headingStyle}>{data["techstar"].majorHeading1}</h2>
+                    <h2 className={headingStyle}>{data[params.event].majorHeading1}</h2>
                     <ul>
-                        <li className={liStyle}>{data["techstar"].guidlines.one}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.two}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.three}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.four}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.five}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.six}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.seven}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.eight}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.nine}</li>
-                        <li className={liStyle}>{data["techstar"].guidlines.ten}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.one}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.two}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.three}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.four}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.five}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.six}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.seven}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.eight}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.nine}</li>
+                        <li className={liStyle}>{data[params.event].guidlines.ten}</li>
 
                     </ul>
                 </div>
