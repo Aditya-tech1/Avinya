@@ -4,6 +4,7 @@ import EventSection from "@/components/EventSection";
 import Gallery from "@/components/Gallery";
 
 import MainBanner from "@/components/MainBanner";
+import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
    <MainBanner />
    <About />
    <EventSection />
+   <Sponsors />
    <Gallery />
   
    </>
