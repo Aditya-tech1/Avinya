@@ -11,7 +11,7 @@ import techStar from "@/assets/techStar.jpg";
 import innovision from "@/assets/innovision.jpg";
 import iqonnect from "@/assets/iQonnect.jpg";
 import explison from "@/assets/explicon.jpg";
-import pptTemplate from "@/assets/templates/innoVisionTemplate.pptx";
+// import pptTemplate from "@/assets/templates/innoVisionTemplate.pptx";
 // import posterTemplate from "@/assets/posterTemplate.docx";
 
 function page({params}) {
