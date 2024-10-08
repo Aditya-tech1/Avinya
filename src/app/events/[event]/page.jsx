@@ -30,11 +30,11 @@ function page({params}) {
             desc2: "Shortlisted participants will create their posters using a designated template that will be provided. Posters will be presented on 15th October 2024.",
 
             heading3: "Judging Criteria",
-            desc3: "Participants will be evaluated on content, originality, and presentation. Only 15 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
+            desc3: "Participants will be evaluated on content, originality, and presentation. Only 20 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
 
             submissiondate: "11th October 2024",
             venue: "Auditorium",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "12:00 PM - 01:45 PM",
 
 
             majorHeading1: "Guidlines",
@@ -84,7 +84,6 @@ function page({params}) {
             },
             imgurl:explison,
             lumalink:"https://lu.ma/r0i224ni",
-            // template:posterTemplate,
 
         },
         // The Bug Hunt
@@ -94,7 +93,7 @@ function page({params}) {
             desc: "A challenging quiz competition designed to test your comprehensive knowledge of electrical and technical concepts. This event will delve into both hardware and software aspects, pushing your understanding to new heights. The Bug Hunt is the perfect opportunity to showcase your technical prowess and compete with the best.",
 
             heading1: "Event Format",
-            desc1: "TThe competition is divided into three rounds, each increasing in difficulty. Participants will be ranked based on the total time taken to complete each round with the most correct answers. The fastest and most accurate participant will be crowned the champion of The Bug Hunt! Only individual participation is allowed. Any form of cheating or foul play will lead to disqualification. Your success will solely depend on your knowledge and abilities. Only first 70 entries will be entertained. So, gear up and register for the most exciting quiz competition! Let's hunt the bugs🐛",
+            desc1: "The competition is divided into three rounds, each increasing in difficulty. Participants will be ranked based on the total time taken to complete each round with the most correct answers. The fastest and most accurate participant will be crowned the champion of The Bug Hunt! Only individual participation is allowed. Any form of cheating or foul play will lead to disqualification. Your success will solely depend on your knowledge and abilities. Only first 70 entries will be entertained. So, gear up and register for the most exciting quiz competition! Let's hunt the bugs🐛",
 
             heading2: "",
             desc2: "",
@@ -103,7 +102,7 @@ function page({params}) {
             desc3: "",
 
             venue: "IT Lab, MMS Block",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "10:30 AM - 11:30 AM",
 
 
             majorHeading1: "Guidlines",
@@ -152,7 +151,7 @@ function page({params}) {
             },
             imgurl:bugHunt,
             lumalink:"https://lu.ma/q2bbotry",
-            template:"",
+            
 
         },
         //Bits 'N' Bytes
@@ -162,7 +161,7 @@ function page({params}) {
             desc: "The science-inspired food decor event is fun and creative.This competition offers an exciting opportunity to blend your love for food with a scientific twist. The event is open to the first 10 teams, with each team consisting of two members.",
 
             heading1: "Instructions",
-            desc1: "Participants are required to prepare their dishes in advance, as no cooking is allowed at the venue. All food items must be strictly vegetarian (eggless). The focus of this event is on the artistic and thematic display of your food, inspired by the world of science. You’ll have 45 minutes to set up your presentation, giving you plenty of time to create an impressive display.",
+            desc1: "Participants are required to prepare their dishes in advance, as no cooking is allowed at the venue. All food items must be strictly vegetarian (eggless). The focus of this event is on the artistic and thematic display of your food, inspired by the world of science. You'll have 45 minutes to set up your presentation, giving you plenty of time to create an impressive display.",
 
             heading2: "",
             desc2: "",
@@ -171,7 +170,7 @@ function page({params}) {
             desc3: "Judging will be based on two key criteria: presentation and taste. Additionally, extra points will be awarded for maintaining a clean and organized setup. Get ready to showcase your creativity and bring science to the table!",
 
             venue: "R1, MMS Block",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "12:00 PM - 01:00 PM",
 
 
             majorHeading1: "Guidlines",
@@ -220,27 +219,27 @@ function page({params}) {
             },
             imgurl:bitNBytes,
             lumalink:"https://lu.ma/d4307fog",
-            template:"",
+            
 
         },
         //Innovision
         "innovision": {
 
             mainHeading: "InnoVision: A Platform for Visionary Ideas",
-            desc: "Join us at InnoVision, an event where creativity meets technology. InnoVision offers participants a unique platform to present their transformative ideas through a structured PowerPoint showcase. Each participant will convey their insights and solutions on topics relevant to today’s scientific and technological landscape.",
+            desc: "Join us at InnoVision, an event where creativity meets technology. InnoVision offers participants a unique platform to present their transformative ideas through a structured PowerPoint showcase. Each participant will convey their insights and solutions on topics relevant to today's scientific and technological landscape.",
 
             heading1: "Event Format",
             desc1: "InnoVision begins with an abstract submission round. Participants are invited to submit a 150-word abstract, detailing the title of their project, along with their name, and college affiliation, by 11th October 2024. Only the most impactful and innovative abstracts will be shortlisted for the final presentation round.",
 
             heading2: "Final Presentation",
-            desc2: "Finalists will be provided with a 7-slide PowerPoint template, which they must use to develop and present their concepts. Each presentation will include: • 8 minutes for delivering the main content.• 2 minutes for an engaging Q&A session with the judges.With a focus on clarity, originality, and relevance, InnoVision promises to be a highly competitive and experience. Be part of this inspiring event where groundbreaking ideas come to life, and the next generation of innovators step forward.",
+            desc2: "Finalists will be provided with a 7-slide PowerPoint template, which they must use to develop and present their concepts. Each presentation will include: • 8 minutes for delivering the main content.• 2 minutes for an engaging Q&A session with the judges.With a focus on clarity, originality, and relevance, InnoVision promises to be a highly competitive and experience. Be part of this inspiring event where groundbreaking ideas come to life, and the next generation of innovators step forward.",
 
             heading3: "",
             desc3: "",
 
             submissiondate: "11th October 2024",
             venue: "Auditorium",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "10:30 AM - 12:00 PM",
 
 
             majorHeading1: "Guidlines",
@@ -248,11 +247,11 @@ function page({params}) {
                 one: "Deadline: Submit by 11th October 2024.",
                 two: "Send to:  societytheempirical@gmail.com.",
                 three: "Format: Submit the abstract as a Microsoft Word file.",
-                four: "Template: Use the provided 7-slide template without alterations.",
+                four: "Template: Use the provided 7-slides template without alterations (will be provided after abstract selection).",
                 five: "Duration: 8 minutes for presentation, followed by 2 minutes for Q&A.",
                 six: "Selection Criteria: Based on the quality and relevance of the abstract.",
-                seven: "Participants Limit: Up to 15 participants will be selected to present.",
-                eight: "Strictly adhere to the provided topics when creating their posters.",
+                seven: "Participants Limit: Up to 15 participants will be selected to present.",
+                eight: "Strictly adhere to the provided topics when creating their presentations.",
                 nine: "",
                 ten: "",
             },
@@ -281,9 +280,9 @@ function page({params}) {
                 ten: "10. SG & Remote Healthcare",
                 eleven: "11. ML in images Speech Recognition Technology",
                 twelve: "12. Space-based Quantum Communication (highly secured data transmission)",
-                thirteen: "13. SpaceX’s Starship (aim to send humans to the Moon & Mars)",
+                thirteen: "13. SpaceX's Starship (aim to send humans to the Moon & Mars)",
                 fourteen: "14. Asteroid Mining & Space Resources (how to extract valuable materials like rare metals form)",
-                fifteen: "15. Economic Viability (what are potential returns on investment from Space Mining)",
+                fifteen: "15. Economic Viability (what are potential returns on investment from Space Mining)",
                 sixteen: "",
                 seventeen: "",
                 eighteen: "",
@@ -292,7 +291,7 @@ function page({params}) {
             },
             imgurl:innovision,
             lumalink:"https://lu.ma/6tsntzyl",
-            template:"Click Here to download the template",
+            
 
         },
         // Group Discussion
@@ -311,7 +310,7 @@ function page({params}) {
             desc3: "",
 
             venue: "Auditorium",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "12:00 PM - 01:45 PM",
 
 
             majorHeading1: "Guidlines",
@@ -319,7 +318,7 @@ function page({params}) {
                 one: "1.Maintain decorum.",
                 two: "2. There will be 2 rounds with time limit.",
                 three: "3. Topics will be revealed in the spot.",
-                four: "",
+                four: "4. ONLY 40 participants are allowed on First-come, First-served basis.",
                 five: "",
                 six: "",
                 seven: "",
@@ -361,7 +360,7 @@ function page({params}) {
             },
             imgurl:battleOfMinds,
             lumalink:"https://lu.ma/5y976xse",
-            template:"",
+            
 
             
         },
@@ -382,7 +381,7 @@ function page({params}) {
 
             submissiondate: "11th October 2024",
             venue: "EG Lab, MMS Block",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "01:45 PM - 02:45 PM",
 
 
             majorHeading1: "Guidlines",
@@ -432,7 +431,7 @@ function page({params}) {
             },
             imgurl:komicSense,
             lumalink:"https://lu.ma/vo2u8ijn",
-            template:"",
+            
 
         },
         //IQonnect Quiz
@@ -451,7 +450,7 @@ function page({params}) {
             desc3: "",
 
             venue: "IT Lab, MMS Block",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "10:30 AM - 11:30 AM",
 
             majorHeading1: "Guidlines",
             guidlines: {
@@ -490,7 +489,7 @@ function page({params}) {
             },
             imgurl:iqonnect,
             lumalink:"https://lu.ma/zckvu87q",
-            template:"",
+            
 
             
         },
@@ -513,14 +512,14 @@ function page({params}) {
             desc2: "Finalists will have 5 minutes to present their ideas, followed by a 2-minute Q&A with the judges. The final round will take place in the auditorium on October 15th. Join us to witness the rise of tomorrow's tech stars and be part of India’s innovation journey!",
 
             venue: "Auditorium",
-            timing: "09:00 AM - 11:00 AM",
+            timing: "01:45 PM - 03:00 PM",
 
             majorHeading1: "Guidlines",
             guidlines: {
                 one: "1. Maintain novelty and innovation in your ideas.",
                 two: "2. Please make sure your solution is scalable and practical",
                 three: "3. Both hardware and software projects are allowed",
-                four: "4. Each team gets 5 minutes to present, followed by a 2-minute Q&A session.",
+                four: "4. Each participant gets 5 minutes to present, followed by a 2-minute Q&A session.",
                 five: "5. Individual Participation ",
                 six: "6. Only 10 entries will be selected for the final round.",
                 seven: "",
@@ -551,7 +550,7 @@ function page({params}) {
             },
             imgurl:techStar,
             lumalink:"https://lu.ma/mnbh9hjb",
-            template:"",
+            
 
            
         }
