@@ -5,7 +5,7 @@ import mainBack2 from "../assets/FEST2.png";
 
 export default function About() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-start pt-16 relative">
+    <div id="about" className="w-full min-h-screen flex flex-col items-center justify-start pt-16 relative">
       <h1 className=" md:mt-16 mt-4 w-full md:px-24 px-10">
         <span className="text-[3rem] w-full text-center beforee relative">
           About
@@ -21,20 +21,36 @@ export default function About() {
           />
         </div>
         <div className="md:w-1/2 w-full text-base text-justify">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui
-          perspiciatis. Temporibus ratione vitae accusamus deserunt labore
-          nesciunt voluptates eos autem facilis adipisci harum quam, nemo quasi
-          mollitia atque quae repellat obcaecati quidem nam voluptatem molestiae
-          consequuntur quo illo! Consectetur magnam quibusdam facilis omnis
-          laborum fugit esse sint laudantium repellendus ipsam, explicabo beatae
-          error, eligendi, dicta neque quas ut architecto aliquid necessitatibus
-          hic quia optio debitis? Illum nobis tenetur totam soluta sequi?
-          Tempore, facilis ipsam animi culpa labore, hic explicabo quod impedit,
-          eos porro accusantium voluptates rem. Aperiam ipsa molestias cum
-          ratione natus debitis aliquid mollitia temporibus, fuga animi eum?
+        अVINYA, the Annual Tech Fest of Guru Tegh Bahadur 4th Centenary Engineering College, is a distinguished event celebrating innovation, knowledge, and creativity. Derived from Sanskrit, अVINYA means "Innovation," embodying the fest’s mission to offer a platform for students to engage with emerging technologies through a range of exciting events.Guided by our college motto, 'Fostering Dreams, Forging Futures,' अVINYA focuses on developing technical, communication, and presentation skills. This year marks the second edition, now an inter-college event, welcoming participants from various institutions to collaborate and showcase their abilities. <br />
+The fest features eight unique events: <br />
+<ul className="">
+  <li className="list-disc ml-2">
+    Komic Sense
+  </li>
+  <li className="list-disc ml-2">
+    Battle of Minds
+  </li>
+  <li className="list-disc ml-2">
+    The Bug Hunt
+  </li>
+  <li className="list-disc ml-2">
+    Tomorrow's Tech Star - Viksit Bharat Edition
+  </li>
+  <li className="list-disc ml-2">
+    InnoVision
+  </li>
+  <li className="list-disc ml-2">
+    IQonnect
+  </li>
+  <li className="list-disc ml-2">
+    Bits N Bytes
+  </li>
+  
+
+</ul>
         </div>
       </div>
-     
+
     </div>
   );
 }

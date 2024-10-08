@@ -9,6 +9,9 @@ import six from "../assets/gallery/6.jpg";
 import seven from "../assets/gallery/7.jpg";
 import eight from "../assets/gallery/8.jpg";
 import nine from "../assets/gallery/9.jpg";
+import ten from "../assets/gallery/10.jpg";
+import eleven from "../assets/gallery/11.jpg";
+import twelve from "../assets/gallery/12.jpg";
 import { Tilt } from "react-tilt";
 import Image from "next/image";
 
@@ -29,10 +32,12 @@ export default function Gallery() {
   /* const imageDiv =
     "w-52 h-64  rounded  flex flex-col items-center justify-center text-black relative cursor-pointer"; */
 
-  const imgarr = [one, two, three, four, five, six, seven, eight, nine];
-
+  const imgarr = [one, two, three, four, five, six, seven, eight, nine,ten, eleven, twelve];
+  const fullImg = (e) => {
+    const fullGallery= e.target.src
+  };
   return (
-    <div className="w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
+    <div id="gallery" className="w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
       <h1 className=" mt-16 w-full text-left">
         <span className="md:text-[3rem] text-[1.5rem] w-full beforee relative">
           Glimpse of the{" "}
@@ -41,7 +46,7 @@ export default function Gallery() {
           </span>
         </span>
       </h1>
-      <div className="flex flex-grow flex-wrap w-full md:px-24 px-10 gap-10 mt-14 justify-center  ">
+      <div className="flex flex-grow flex-wrap w-full md:px-24 px-10 gap-10 mt-14 justify-center  " onClick={(e)=>fullImg}>
         {imgarr.map((data, index) => (
           <Tilt
             className="Tilt p-3 cursor-default"
@@ -59,6 +64,7 @@ export default function Gallery() {
           </Tilt>
         ))}
       </div>
+      
     </div>
   );
 }

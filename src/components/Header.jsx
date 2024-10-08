@@ -19,8 +19,8 @@ function Header() {
         <Link href="/" className={selectnum===0?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(0)}}>
           Home
         </Link>
-        <Link href="/" className={selectnum===1 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(1)}}>About</Link>
-        <Link href="/" className={selectnum===2 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(2)}}>Gallery</Link>
+        <Link href="/#about" className={selectnum===1 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(1)}}>About</Link>
+        <Link href="/#gallery" className={selectnum===2 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(2)}}>Gallery</Link>
         <Link href="/events" className={selectnum===3 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(3)}}>Events</Link>
         <Link href="/" className={selectnum===4 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(4)}}>Contact</Link>
       </nav>
