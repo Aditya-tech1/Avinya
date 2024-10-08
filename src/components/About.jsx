@@ -5,22 +5,22 @@ import mainBack2 from "../assets/FEST2.png";
 
 export default function About() {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-start pt-16 relative">
-      <h1 className=" mt-16 w-full px-24">
+    <div className="w-full min-h-screen flex flex-col items-center justify-start pt-16 relative">
+      <h1 className=" md:mt-16 mt-4 w-full md:px-24 px-10">
         <span className="text-[3rem] w-full text-center beforee relative">
           About
         </span>
       </h1>
 
-      <div className="flex flex-row items-start justify-center px-24  py-14 gap-10">
-        <div className="w-1/2">
+      <div className="flex md:flex-row flex-col items-start justify-center md:px-24 px-10  py-14 gap-10">
+        <div className="md:w-1/2 w-full">
           <Image
             src={aboutImg}
             className="w-full h-full bg-red-400 flex items-center justify-center rounded-md"
             alt="about"
           />
         </div>
-        <div className="w-1/2 text-base text-justify">
+        <div className="md:w-1/2 w-full text-base text-justify">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui
           perspiciatis. Temporibus ratione vitae accusamus deserunt labore
           nesciunt voluptates eos autem facilis adipisci harum quam, nemo quasi

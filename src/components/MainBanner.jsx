@@ -6,9 +6,9 @@ export default function MainBanner() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center">
       <AvinyaName />
-      <p className="text-2xl mt-8">Where Code Meets Chaos!</p>
-      <h5 className="text-lg mt-6 pt-4 rokkitt-regular">We Are Waiting For You Guyz On</h5>
-      <h2 className="text-4xl text-[#FFD400] mt-4 rokkitt-regular">October 15, 2024</h2>
+      <p className="md:text-2xl text-lg md:mt-0 mt-2">Ideation for Viksit Bharat</p>
+      <h5 className="text-lg mt-6 pt-4 rokkitt-regular text-center">Let's Be A Part Of An Exciting Journey On</h5>
+      <h2 className="md:text-4xl text-3xl text-[#FFD400] rokkitt-regular">October 15, 2024</h2>
       <button
         type="button"
         className="mt-10 bg-white p-4 px-10 rounded-full text-white font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:scale-105 transform transition duration-300 ease-in-out"
@@ -18,7 +18,7 @@ export default function MainBanner() {
 
       <Image
         src={mainBack}
-        className="absolute top-0 left-0 right-0 w-full h-screen object-cover -z-10"
+        className="absolute top-0 left-0 right-0 w-full h-screen object-cover -z-10 md:object-cover object-left"
         alt="banner"
       />
     </div>

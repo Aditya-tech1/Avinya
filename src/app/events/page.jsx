@@ -1,18 +1,13 @@
 import EventCard from "@/components/EventCard";
 import komicSense from "@/assets/komicSense.jpg";
 import battleOfMinds from "@/assets/battleOfMinds.png";
-// import bugHunt from "@/assets/bugHunt.png";
-// import techStar from "@/assets/techStar.png";
-// import innovision from "@/assets/innovision.png";
-// import iqonnect from "@/assets/iqonnect.png";
-// import explison from "@/assets/explison.png";
-// import bitNBytes from "@/assets/bitNBytes.png";
-import bugHunt from "@/assets/logo.png";
-import techStar from "@/assets/logo.png";
-import innovision from "@/assets/logo.png";
-import iqonnect from "@/assets/logo.png";
-import explison from "@/assets/logo.png";
-import bitNBytes from "@/assets/logo.png";
+import bugHunt from "@/assets/bugHunt.jpg";
+import bitNBytes from "@/assets/bitsNBytes.jpg";
+import techStar from "@/assets/techStar.jpg";
+import innovision from "@/assets/innovision.jpg";
+import iqonnect from "@/assets/iQonnect.jpg";
+import explison from "@/assets/explicon.jpg";
+
 
 
 function page() {

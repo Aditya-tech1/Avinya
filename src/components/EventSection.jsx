@@ -4,16 +4,10 @@ import komicSense from "@/assets/komicSense.jpg";
 import battleOfMinds from "@/assets/battleOfMinds.png";
 import bugHunt from "@/assets/bugHunt.jpg";
 import bitNBytes from "@/assets/bitsNBytes.jpg";
-// import techStar from "@/assets/techStar.png";
-// import innovision from "@/assets/innovision.png";
-// import iqonnect from "@/assets/iqonnect.png";
-// import explison from "@/assets/explison.png";
-// import bugHunt from "@/assets/logo.png";
-import techStar from "@/assets/logo.png";
-import innovision from "@/assets/logo.png";
-import iqonnect from "@/assets/logo.png";
-import explison from "@/assets/logo.png";
-// import bitNBytes from "@/assets/logo.png";
+import techStar from "@/assets/techStar.jpg";
+import innovision from "@/assets/innovision.jpg";
+import iqonnect from "@/assets/iQonnect.jpg";
+import explison from "@/assets/explicon.jpg";
 
 
 export default function EventSection(data) {
@@ -63,13 +57,13 @@ export default function EventSection(data) {
   };
 
   return (
-    <div className="w-full p-4 px-24 text-center flex flex-col items-center justify-start mt-16">
-      <h1 className=" mt-16 w-full text-left">
+    <div className="w-full p-4 md:px-10 px-10 text-center flex flex-col items-center justify-start md:mt-16 mt-4">
+      <h1 className=" md:mt-16 mt-0 w-full text-left">
         <span className="text-[3rem] w-full beforee relative">
           Events
         </span>
       </h1>
-      <div className="flex flex-wrap justify-center w-full px-24 gap-10 mt-14">
+      <div className="flex flex-wrap justify-center w-full md:px-24 px-10 gap-10 mt-14">
         {Object.keys(mainEvents).map((event, index) => (
           <div className="w-60 h-72  rounded p-4 flex flex-col items-center hover:-translate-y-2 transition-transform justify-center gradborderevent cursor-pointer relative shadow" key={index}>
             <Image

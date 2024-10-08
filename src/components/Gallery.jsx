@@ -32,16 +32,16 @@ export default function Gallery() {
   const imgarr = [one, two, three, four, five, six, seven, eight, nine];
 
   return (
-    <div className="w-full p-4 px-20 text-center flex flex-col items-center justify-start mt-0 mx-auto">
+    <div className="w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
       <h1 className=" mt-16 w-full text-left">
-        <span className="text-[3rem] w-full beforee relative">
+        <span className="md:text-[3rem] text-[1.5rem] w-full beforee relative">
           Glimpse of the{" "}
           <span className="allura-regular tracking-wider bg-gradient-to-r from-[#e63bdb] to-cyan-500 gradtext">
             <span className="kalam-regular">अ</span>VINYA 2023
           </span>
         </span>
       </h1>
-      <div className="flex flex-grow flex-wrap w-full px-24 gap-10 mt-14 justify-center  ">
+      <div className="flex flex-grow flex-wrap w-full md:px-24 px-10 gap-10 mt-14 justify-center  ">
         {imgarr.map((data, index) => (
           <Tilt
             className="Tilt p-3 cursor-default"
