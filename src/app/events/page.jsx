@@ -79,7 +79,7 @@ function page() {
     <section className="flex flex-col my-10 text-white w-full">
       <h1 className=" mt-16 w-full md:mx-24 mx-auto">
         <span className="text-[3rem] w-full text-center beforee relative mx-10">
-          Events
+          Events 
         </span>
       </h1>
 
