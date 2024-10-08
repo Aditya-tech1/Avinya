@@ -445,4 +445,26 @@ export const Linkedin = ({ color = "#FFFFFF",...props}) => (
   </svg>
 );
 
+export const HamburgerIcon = () => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    width={50}
+    height={50}
+  >
+    <g strokeWidth="0"></g>
+    <g strokeLinecap="round" strokeLinejoin="round"></g>
+    <g>
+      <path
+        d="M3 17H21M3 12H21M3 7H21"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+  </svg>
+);
+
 
