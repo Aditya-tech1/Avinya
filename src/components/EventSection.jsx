@@ -17,8 +17,7 @@ import bitNBytes from "@/assets/logo.png";
 
 
 export default function EventSection(data) {
-  const imageDiv =
-    "w-60 h-auto bg-white rounded p-4 flex flex-col items-center justify-center text-black cursor-pointer";
+ 
 
   const mainEvents = {
     event1: {
@@ -70,15 +69,16 @@ export default function EventSection(data) {
           Events
         </span>
       </h1>
-      <div className="grid grid-cols-4 w-full px-24 gap-10 mt-14">
+      <div className="flex flex-wrap justify-center w-full px-24 gap-10 mt-14">
         {Object.keys(mainEvents).map((event, index) => (
-          <div className={imageDiv} key={index}>
+          <div className="w-60 h-72  rounded p-4 flex flex-col items-center hover:-translate-y-2 transition-transform justify-center gradborderevent cursor-pointer relative shadow" key={index}>
             <Image
               src={mainEvents[event].eventimage}
               alt="placeholder"
-              className="h-full w-full"
+              className="h-full w-full mb-4"
             />
-            <p>{mainEvents[event].eventname}</p>
+            <p className="text-[#FFD400] rokkitt-regular">{mainEvents[event].eventname}</p>
+            <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray-900 -z-10"></div>
           </div>
         ))}
 

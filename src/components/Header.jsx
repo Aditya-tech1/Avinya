@@ -16,7 +16,7 @@ function Header() {
         </h2>
       </div>
       <nav className="w-1/3 flex flex-row items-center justify-evenly">
-        <Link href="./" className={selectnum===0?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(0)}}>
+        <Link href="/" className={selectnum===0?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(0)}}>
           Home
         </Link>
         <Link href="/" className={selectnum===1 ?"border-b pb-[0.15rem] px-1 text-center":""} onClick={()=>{setselectnum(1)}}>About</Link>

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,7 +14,6 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    
   }
 }
 .rokkitt-regular {
@@ -52,11 +51,10 @@
   font-style: normal;
 }
 
-
-*{
+* {
   box-sizing: border-box;
 }
-.gradtext{
+.gradtext {
   /* background: linear-gradient(90deg, #7a00ff, #ff00e7); */
   -webkit-background-clip: text;
   background-clip: text;
@@ -70,39 +68,50 @@
   height: 16.6rem;
   border-radius: 0.25rem;
   z-index: -1;
-  background: conic-gradient(
-    from 0deg,
-    #D847EF,
-    cyan,
-    #D847EF
-  );
+  box-shadow: rgba(173, 17, 208, 0.437) 0px 50px 100px -20px,
+    rgba(101, 200, 149, 0.859) 0px 30px 60px -30px;
+  background: conic-gradient(from 0deg, #d847ef, cyan, #d847ef);
 }
 
-
-
-.beforee::before{
+.gradborderevent::before {
   content: "";
   position: absolute;
-  bottom: -0.50rem;
+  top: -0.25rem;
+  bottom: -0.25rem;
+  left: -0.25rem;
+  right: -0.25rem;
+  border-radius: 0.25rem;
+  z-index: -20;
+  box-shadow: rgba(173, 17, 208, 0.437) 0px 50px 100px -20px,
+    rgba(101, 200, 149, 0.859) 0px 30px 60px -30px;
+  background: conic-gradient(from 0deg, #d847ef, cyan, #d847ef);
+}
+
+.beforee::before {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
   left: 0rem;
   width: 4rem;
   height: 0rem;
- 
+
   border-bottom: 0.22rem solid #e409ce;
   border-top: 0.15rem solid transparent;
 }
 
-.beforee::after{
+.beforee::after {
   content: "";
   position: absolute;
   bottom: -0.25rem;
   left: 0rem;
   width: 6rem;
   height: 0rem;
- 
   border-top: 0.22rem solid #e409ce;
   border-bottom: 0.15rem solid transparent;
-  
+}
+.shadow {
+  box-shadow: rgba(208, 0, 255, 0.101) 0px 50px 100px -20px,
+    rgba(101, 200, 149, 0.859) 0px 30px 60px -30px;
 }
 
 body {

@@ -20,7 +20,7 @@ function EventCard({data}) {
           {data.eventdescription}
         </p>
         <div className="flex space-x-4">
-          <Link href={""} className="bg-gray-200 text-sm text-gray-900 rounded flex text-center w-full h-8 items-center justify-center">
+          <Link href={data.pageLink} className="bg-gray-200 text-sm text-gray-900 rounded flex text-center w-full h-8 items-center justify-center">
             Read More . . .
           </Link>
           <Link href={""} className="bg-blue-600 text-sm text-white rounded flex text-center w-full h-8 items-center justify-center">

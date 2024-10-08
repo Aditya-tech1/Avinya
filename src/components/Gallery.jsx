@@ -26,13 +26,6 @@ export default function Gallery() {
     
   };
 
-  const descEnable = (e) => {
-    e.target.nextElementSibling.style.display = "block";
-  };
-  const descDisable = (e) => {
-    e.target.nextElementSibling.style.display = "none";
-  };
-
   /* const imageDiv =
     "w-52 h-64  rounded  flex flex-col items-center justify-center text-black relative cursor-pointer"; */
 
@@ -55,19 +48,13 @@ export default function Gallery() {
             options={defaultOptions}
             key={index}
           >
-            <div className="w-52 h-64  rounded  flex flex-col items-center justify-center text-black cursor-pointer relative  gradborder">
+            <div className="w-52 h-64  rounded  flex flex-col items-center justify-center text-black hover:-translate-y-3 transition-transform cursor-pointer relative  gradborder">
               <Image
                 loading="lazy"
                 src={data}
                 alt="placeholder"
                 className="h-full w-full rounded object-right object-cover"
-                onMouseOver={descEnable}
-                onMouseLeave={descDisable}
               />
-              <p className="absolute w-full  bg-black bottom-0 text-gray-300 p-2 text-sm rounded hidden">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
-                ipsam amet dicta.
-              </p>
             </div>
           </Tilt>
         ))}
