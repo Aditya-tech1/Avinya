@@ -376,7 +376,7 @@ function page({params}) {
             heading2: "",
             desc2: "",
 
-            heading3: "Judging Criteria",
+            heading3: "",
             desc3: "",
 
             submissiondate: "11th October 2024",
