@@ -40,7 +40,7 @@ function Sponsors() {
             tiltOptions={defaultOptions}
             key={index}
           >
-            <div className="m-6 rounded-lg shadow-lg w-32 h-32 md:w-48 md:h-48 flex items-center justify-center relative" onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
+            <div className="m-6 rounded-lg w-32 h-32 md:w-48 md:h-48 flex items-center justify-center relative" onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
               <p className={`opacity-0 text-[#FFD400] rokkitt-regular absolute -z-10 top-0 ${hover?'-translate-y-8 opacity-100':''} duration-100`}>{sponsor}</p>
               <Image
                 src={komic}
