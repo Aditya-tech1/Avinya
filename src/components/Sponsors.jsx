@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, {useState} from "react";
 import { Tilt } from "react-tilt";
 import komic from "../assets/etherium.png";
 
 function Sponsors() {
   const Sponsors = ["Sponsor1", "Sponsor2", "Sponsor3", "Sponsor4"];
+  const [hover, setHover] = React.useState(Sponsors.map(() => false));
+
   
   const defaultOptions = {
     reverse: true, // reverse the tilt direction
@@ -33,7 +35,7 @@ function Sponsors() {
       </h1>
       <div className="flex flex-wrap justify-center items-center mt-20">
         {Sponsors.map((sponsor, index) =>{
-          const [hover, setHover] = React.useState(false);
+          
           return(
           <Tilt
             className="Tilt p-3 cursor-default"
