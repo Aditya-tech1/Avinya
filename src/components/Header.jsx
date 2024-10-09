@@ -30,7 +30,7 @@ function Header() {
           Guru Tegh Bahadur 4th Centenary Engineering College
         </h2>
         <span
-          className="md:hidden"
+          className="md:hidden relative -right-3"
           onClick={() => {
             setHide(!hide);
           }}

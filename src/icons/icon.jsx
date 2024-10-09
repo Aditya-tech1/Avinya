@@ -494,8 +494,8 @@ export const HamburgerIcon = () => (
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    width={46}
-    height={46}
+    width={40}
+    height={40}
   >
     <g strokeWidth="0"></g>
     <g strokeLinecap="round" strokeLinejoin="round"></g>
