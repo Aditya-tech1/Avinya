@@ -49,7 +49,7 @@ function AvinyaName() {
     <>
       <Tilt className="Tilt p-3 cursor-default" options={defaultOptions}>
         <h1 className=" md:text-8xl text-4xl md:py-4 z-30 [text-shadow:_7px_5px_16px_rgba(225,157,219,0.45)] allura-regular tracking-wider bg-gradient-to-r from-[#e63bdb] to-cyan-500 gradtext select-none">
-          <span className="kalam-regular">अ</span>VINYA 2024
+          <span className="kalam-regular">अ</span>VINYA 2024 
         </h1>
       </Tilt>
       
