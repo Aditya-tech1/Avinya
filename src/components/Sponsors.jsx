@@ -28,7 +28,7 @@ function Sponsors() {
     <section className="py-10">
       <h1 className="md:mt-16 mt-4 w-full md:px-24 px-10">
         <span className="text-[3rem] w-full text-center beforee relative text-white">
-          Sponsored By
+          Sponsorship Partners
         </span>
       </h1>
       <div className="flex flex-wrap justify-center items-center mt-20">

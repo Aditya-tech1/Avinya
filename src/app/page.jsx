@@ -12,7 +12,7 @@ export default function Home() {
    <MainBanner />
    <About />
    <EventSection />
-   <Sponsors />
+   {/* <Sponsors /> */}
    <Gallery />
   
    </>

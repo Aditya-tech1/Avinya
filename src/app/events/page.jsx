@@ -84,7 +84,7 @@ function page() {
         </span>
       </h1>
 
-      <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-10 col-g md:px-24 mt-10 ">
+      <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-10 col-g md:px-24 mt-10 px-3">
         {events.map((event, index) => (
           <EventCard key={index} data={event} />
         ))}
