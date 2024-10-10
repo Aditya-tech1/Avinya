@@ -65,6 +65,9 @@ function Header() {
         <Link href="/events" className="">
           Events
         </Link>
+        <Link href="/timeline" className="">
+          Timeline
+        </Link>
         <Link href="/contacts" className="">
           Contact
         </Link>
@@ -82,6 +85,9 @@ function Header() {
         </Link>
         <Link href="/events" className="">
           Events
+        </Link>
+        <Link href="/timeline" className="">
+          Timeline
         </Link>
         <Link href="/contacts" className="">
           Contact

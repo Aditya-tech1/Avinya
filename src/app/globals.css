@@ -91,6 +91,20 @@
   background: conic-gradient(from 0deg, #d847ef, cyan, #d847ef);
 }
 
+.gradbordereventtime::before {
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  bottom: -0.2rem;
+  left: -0.2rem;
+  right: -0.2rem;
+  border-radius: 0.60rem;
+  z-index: -20;
+  /* box-shadow: rgba(173, 17, 208, 0.437) 0px 50px 100px -20px,
+    rgba(101, 200, 149, 0.859) 0px 30px 60px -30px; */
+  background: conic-gradient(from 0deg, #d847ef, cyan, #d847ef);
+}
+
 .beforee::before {
   content: "";
   position: absolute;
