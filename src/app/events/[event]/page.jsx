@@ -564,8 +564,8 @@ function page({params}) {
                     <Image src={data[params.event].imgurl} alt="Poster" className="w-full h-auto rounded" />
                     <p className=" w-full py-6 ">
                         <strong> Venue: </strong>{data[params.event].venue}<br /> <br />
-                        <Link href={data[params.event].lumalink} className="mt-10 bg-white p-4 px-10 rounded-full text-white font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:scale-105 transform transition duration-300 ease-in-out">Register</Link>
-                        {/* <strong> Timing:</strong> {data[params.event].timing} */}
+                        <strong> Timing:</strong> {data[params.event].timing} <br /> <br /> <br />
+                        <Link href={data[params.event].lumalink} className="mt-16 bg-white p-4 px-10 rounded-full text-white font-bold bg-gradient-to-r from-fuchsia-500 to-cyan-500 hover:scale-105 transform transition duration-300 ease-in-out">Register</Link>
                     </p>
                 </div>
                 <div className="md:w-2/3 w-full text-sm">

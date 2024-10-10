@@ -7,9 +7,11 @@ export default function MainBanner() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center relative">
       <AvinyaName />
-      <p className="md:text-2xl text-lg md:mt-0 mt-2 text-white">
+      <div className="md:text-2xl text-lg md:mt-0 mt-2 text-white">
         Ideation for Viksit Bharat
-      </p>
+        <br />
+        <p className="text-base text-center w-full text-slate-100 italic">"Inter-College Tech Fest"</p>
+      </div>
       <h5 className="text-lg mt-6 pt-4 rokkitt-regular text-center text-white">
         Let&apos;s Be A Part Of An Exciting Journey On
       </h5>

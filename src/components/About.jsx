@@ -22,8 +22,8 @@ export default function About() {
             alt="about"
           />
         </div>
-        <div className="md:w-1/2 w-full text-base text-justify text-white">
-          अVINYA, the Annual Tech Fest of Guru Tegh Bahadur 4th Centenary
+        <div className="md:w-1/2 w-full text-base text-justify text-white ">
+          अVINYA, The Annual Tech Fest of Guru Tegh Bahadur 4th Centenary
           Engineering College, is a distinguished event celebrating innovation,
           knowledge, and creativity. Derived from Sanskrit, अVINYA means
           &quot;Innovation,&quot; embodying the fest&apos;s mission to offer a
@@ -47,8 +47,9 @@ export default function About() {
             <li className="list-disc ml-2">IQonnect</li>
             <li className="list-disc ml-2">Bits N Bytes</li>
             <li className="list-disc ml-2">Explicon</li>
-            
-अVINYA fosters a collaborative environment where young innovators can explore and present advancements in technology, preparing them for future challenges.
+            अVINYA fosters a collaborative environment where young innovators
+            can explore and present advancements in technology, preparing them
+            for future challenges.
           </ul>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function Gallery() {
     <div id="gallery" className="text-white w-full p-4 md:px-20 px-10 text-center flex flex-col items-center justify-start mt-0 mx-auto mb-20 md:mb-0">
       <h1 className="mt-4 w-full text-left">
         <span className="md:text-[3rem] text-[1.5rem] w-full beforee relative">
-          Glimpse of the{" "}
+          Glimpses of the{" "}
           <span className="allura-regular tracking-wider bg-gradient-to-r from-[#e63bdb] to-cyan-500 gradtext">
             <span className="kalam-regular">अ</span>VINYA 2023
           </span>
