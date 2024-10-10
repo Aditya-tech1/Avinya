@@ -37,7 +37,7 @@ function page({params}) {
             timing: "12:00 PM - 01:45 PM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "Participants will be provided with a designated poster template. Poster size is set at 3' x 2'.",
                 two: "Deadline: Abstracts must be submitted by 11th October 2024.",
@@ -105,7 +105,7 @@ function page({params}) {
             timing: "10:30 AM - 11:30 AM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "1. 3 round with time limit ",
                 two: "2. MCQ based quiz",
@@ -173,7 +173,7 @@ function page({params}) {
             timing: "12:00 PM - 01:00 PM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "1. Theme: Science-inspired food decoration.",
                 two: "2. ONLY 10 entries will be accepted on First-come, First-serve basis",
@@ -242,7 +242,7 @@ function page({params}) {
             timing: "10:30 AM - 12:00 PM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "Deadline: Submit by 11th October 2024.",
                 two: "Send to:  societytheempirical@gmail.com.",
@@ -313,7 +313,7 @@ function page({params}) {
             timing: "12:00 PM - 01:45 PM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "1.Maintain decorum.",
                 two: "2. There will be 2 rounds with time limit.",
@@ -384,7 +384,7 @@ function page({params}) {
             timing: "01:45 PM - 02:45 PM",
 
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "1. Entry Limit: A maximum of 25 entries will be accepted on a first-come, first-served basis.",
                 two: "2. Topic Announcement: The theme will be disclosed at the beginning of the event.",
@@ -452,7 +452,7 @@ function page({params}) {
             venue: "IT Lab, MMS Block",
             timing: "10:30 AM - 11:30 AM",
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "Round 1: 15 mins (15 questions)",
                 two: "Round 2: 15 mins (15 questions)",
@@ -514,7 +514,7 @@ function page({params}) {
             venue: "Auditorium",
             timing: "01:45 PM - 03:00 PM",
 
-            majorHeading1: "Guidlines",
+            majorHeading1: "Guidelines",
             guidlines: {
                 one: "1. Maintain novelty and innovation in your ideas.",
                 two: "2. Please make sure your solution is scalable and practical",
