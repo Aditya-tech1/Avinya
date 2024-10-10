@@ -10,7 +10,7 @@ export default function MainBanner() {
       <div className="md:text-2xl text-lg md:mt-0 mt-2 text-white">
         Ideation for Viksit Bharat
         <br />
-        <p className="text-base text-center w-full text-slate-100 italic">"Inter-College Tech Fest"</p>
+        <p className="text-base text-center w-full text-slate-100 italic">&quot;Inter-College Tech Fest&quot;</p>
       </div>
       <h5 className="text-lg mt-6 pt-4 rokkitt-regular text-center text-white">
         Let&apos;s Be A Part Of An Exciting Journey On
