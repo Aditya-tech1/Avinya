@@ -32,7 +32,7 @@ function page({params}) {
             heading3: "Judging Criteria",
             desc3: "Participants will be evaluated on content, originality, and presentation. Only 20 abstracts will be shortlisted. The judges' decision will be final and binding. Explicon promises to be an intellectually stimulating and competitive event, where groundbreaking ideas come to life. Step forward and share your insights with the next generation of innovators!",
 
-            submissiondate: "11th October 2024",
+            submissiondate: "13th October 2024",
             venue: "Auditorium",
             timing: "12:00 PM - 01:45 PM",
 
@@ -40,7 +40,7 @@ function page({params}) {
             majorHeading1: "Guidelines",
             guidlines: {
                 one: "Participants will be provided with a designated poster template. Poster size is set at 3' x 2'.",
-                two: "Deadline: Abstracts must be submitted by 11th October 2024.",
+                two: "Deadline: Abstracts must be submitted by 13th October 2024.",
                 three: "Format: Submit the abstract as a Microsoft Word file.",
                 four: "Content: The abstract (150 words max) must include: Title of the poster, Author's name(s), College name (Affiliation)",
                 five: "Submission Email: Send your abstract to societytheempirical@gmail.com.",
@@ -229,7 +229,7 @@ function page({params}) {
             desc: "Join us at InnoVision, an event where creativity meets technology. InnoVision offers participants a unique platform to present their transformative ideas through a structured PowerPoint showcase. Each participant will convey their insights and solutions on topics relevant to today's scientific and technological landscape.",
 
             heading1: "Event Format",
-            desc1: "InnoVision begins with an abstract submission round. Participants are invited to submit a 150-word abstract, detailing the title of their project, along with their name, and college affiliation, by 11th October 2024. Only the most impactful and innovative abstracts will be shortlisted for the final presentation round.",
+            desc1: "InnoVision begins with an abstract submission round. Participants are invited to submit a 150-word abstract, detailing the title of their project, along with their name, and college affiliation, by 13th October 2024. Only the most impactful and innovative abstracts will be shortlisted for the final presentation round.",
 
             heading2: "Final Presentation",
             desc2: "Finalists will be provided with a 7-slide PowerPoint template, which they must use to develop and present their concepts. Each presentation will include: • 8 minutes for delivering the main content.• 2 minutes for an engaging Q&A session with the judges.With a focus on clarity, originality, and relevance, InnoVision promises to be a highly competitive and experience. Be part of this inspiring event where groundbreaking ideas come to life, and the next generation of innovators step forward.",
@@ -237,14 +237,14 @@ function page({params}) {
             heading3: "",
             desc3: "",
 
-            submissiondate: "11th October 2024",
+            submissiondate: "13th October 2024",
             venue: "Auditorium",
             timing: "10:30 AM - 12:00 PM",
 
 
             majorHeading1: "Guidelines",
             guidlines: {
-                one: "Deadline: Submit by 11th October 2024.",
+                one: "Deadline: Submit by 13th October 2024.",
                 two: "Send to:  societytheempirical@gmail.com.",
                 three: "Format: Submit the abstract as a Microsoft Word file.",
                 four: "Template: Use the provided 7-slides template without alterations (will be provided after abstract selection).",
@@ -379,7 +379,7 @@ function page({params}) {
             heading3: "",
             desc3: "",
 
-            submissiondate: "11th October 2024",
+            submissiondate: "13th October 2024",
             venue: "EG Lab, MMS Block",
             timing: "01:45 PM - 02:45 PM",
 
