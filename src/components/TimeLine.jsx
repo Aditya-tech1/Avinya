@@ -147,24 +147,46 @@ function TimeLine() {
               </div>
               <div className="flex flex-col gap-6 pb-6 max-w-full w-[20rem] ml-6 mt-14">
                 {time.evets.map((event, index) => (
-                  <div className="flex flex-col gap-3 rounded-lg shadow-lg bg-[#000000] p-3 relative gradbordereventtime" key={index}>
+                  <div
+                    className="flex flex-col gap-3 rounded-lg shadow-lg bg-[#000000] p-3 relative gradbordereventtime"
+                    key={index}
+                  >
                     <div className="flex justify-between">
                       <div className="flex flex-col">
-                        <p className="text-xs rokkitt-regular text-[#77f850]">Starts at</p>
-                        <h2 className="text-sm font-bold rokkitt-regular">{event.time}</h2>
+                        <p className="text-xs rokkitt-regular text-[#77f850]">
+                          Starts at
+                        </p>
+                        <h2 className="text-sm font-bold rokkitt-regular">
+                          {event.time}
+                        </h2>
                       </div>
                       <div className="flex flex-col">
-                        <p className="text-xs text-right rokkitt-regular text-[#eb4848]">Ends at</p>
-                        <h2 className="text-sm font-bold rokkitt-regular">{event.ends}</h2>
+                        <p className="text-xs text-right rokkitt-regular text-[#eb4848]">
+                          Ends at
+                        </p>
+                        <h2 className="text-sm font-bold rokkitt-regular">
+                          {event.ends}
+                        </h2>
                       </div>
                     </div>
 
-                    <div className="flex w-full aspect-square">
-                    <Image src={event.image} alt="eventimage" className="h-full w-full" />
+                    <div className="flex w-full aspect-square relative">
+                      <Image
+                        src={event.image}
+                        alt="eventimage"
+                        className="h-full w-full"
+                      />
+                      { event.name==="Break" &&
+                        <div className="flex h-10 justify-center items-center p-3 rounded-t-md rounded-r-md bg-gradient-to-r from-fuchsia-500 to-cyan-500 absolute left-1 bottom-1 pulse-scale">
+                          An Event by Microsoft
+                        </div>
+                      }
                     </div>
 
                     <div className="flex">
-                        <h2 className="text-2xl font-bold text-[#FFD400] rokkitt-regular">{event.name}</h2>
+                      <h2 className="text-2xl font-bold text-[#FFD400] rokkitt-regular">
+                        {event.name}
+                      </h2>
                     </div>
                   </div>
                 ))}
