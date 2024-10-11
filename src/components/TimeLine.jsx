@@ -117,7 +117,7 @@ function TimeLine() {
     },
   ];
   return (
-    <div className="flex flex-col  mt-24 px-6 md:px-24">
+    <div className="flex flex-col  mt-24 px-6 md:px-24 text-white">
       <h1 className="mt-16 w-full text-left">
         <span className="text-[3rem] w-full beforee relative">Timeline</span>
       </h1>
