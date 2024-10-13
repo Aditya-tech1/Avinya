@@ -51,25 +51,25 @@ function TimeLine() {
     },
     {
       date: "2024-10-15",
-      time: "12:00 AM",
+      time: "12:00 PM",
       evets: [
         {
           name: "Battle Of Minds",
           image: battleOfMinds,
           ends: "01:00 PM",
-          time: "12:00 AM",
+          time: "12:00 PM",
         },
         {
           name: "Bits 'N' Bytes",
           image: bitNBytes,
           ends: "01:00 PM",
-          time: "12:00 AM",
+          time: "12:00 PM",
         },
         {
           name: "Explicon",
           image: explison,
           ends: "01:45 PM",
-          time: "12:00 AM",
+          time: "12:00 PM",
         },
       ],
     },
