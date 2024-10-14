@@ -53,7 +53,7 @@ function AvinyaName() {
         </h1>
       </Tilt>
       
-      {hide && (
+      {/* {hide && (
       <div className="alertbg backdrop-blur-sm">
       <div className="w-auto md:w-96 h-fit pt-8 pb-4 rounded-2xl flex flex-col items-center justify-center bg-cover bg-center absolute bottom-1/2 left-3 right-3 md:left-1/2 md:-translate-x-1/2 translate-y-1/2 px-3 bg-gradient-to-r from-[#e63bdb] to-cyan-500 bgop">
      
@@ -107,7 +107,7 @@ function AvinyaName() {
         </div>
       </div>
       </div>
-      )}
+      )} */}
     </>
   );
 }
